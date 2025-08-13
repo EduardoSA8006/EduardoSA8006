@@ -11,23 +11,6 @@
 Desenvolvedor mobile com foco em <b>Flutter/Dart</b>, criando apps performáticos, responsivos e multiplataforma. Tenho experiência em comunicação entre dispositivos (<b>Wi‑Fi Direct</b>, <b>Bluetooth</b>, <b>Hotspot</b>), arquiteturas robustas (<b>Clean Architecture</b>, <b>BLoC/Riverpod</b>) e integração com back-ends via <b>Firebase</b> e <b>Supabase</b> (BaaS). Também atuo com <b>desenvolvimento web</b> e <b>desktop</b>, além de projetos de <b>IoT</b> e <b>games</b>. Apaixonado por otimizações de rendering, sincronização em tempo real e experiências multiplataforma.
 </div>
 
-<!-- GitHub Stats -->
-<p align="center">
-  <!-- Streak: endpoint alternativo em vercel.app para contornar falhas intermitentes do demolab.com -->
-  <img
-    src="https://streak-stats.vercel.app/?user=EduardoSA8006&theme=tokyonight&hide_border=true&cache_seconds=21600&v=1"
-    height="160"
-    alt="GitHub Streak de Eduardo"
-    loading="lazy"
-  />
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=EduardoSA8006&show_icons=true&theme=tokyonight&hide_border=true"
-    height="160"
-    alt="GitHub Stats de Eduardo"
-    loading="lazy"
-  />
-</p>
-
 <p align="center">
   <!-- Linguagens e Frameworks -->
   <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white"/>
@@ -50,6 +33,25 @@ Desenvolvedor mobile com foco em <b>Flutter/Dart</b>, criando apps performático
 <p align="center">
   <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/EduardoSA8006/EduardoSA8006/main/assets/shields/commit-activity.json" />
 </p>
+
+<!-- GitHub Stats -->
+<p align="center">
+  <!-- Streak: endpoint alternativo em vercel.app para contornar falhas intermitentes do demolab.com -->
+  <img
+    src="https://streak-stats.vercel.app/?user=EduardoSA8006&theme=tokyonight&hide_border=true&cache_seconds=21600&v=1"
+    height="160"
+    alt="GitHub Streak de Eduardo"
+    loading="lazy"
+  />
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=EduardoSA8006&show_icons=true&theme=tokyonight&hide_border=true"
+    height="160"
+    alt="GitHub Stats de Eduardo"
+    loading="lazy"
+  />
+</p>
+
+
 
 <h2 align="center">🚀 Meus Projetos</h2>
 
