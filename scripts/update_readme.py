@@ -53,7 +53,6 @@ def build_repo_line(repo: dict) -> str:
     stars_badge = f"https://img.shields.io/github/stars/{full}?style=social"
     last_commit_badge = f"https://img.shields.io/github/last-commit/{full}?logo=git"
 
-    # GIF associado (procura por arquivo com mesmo nome do repo)
     gif_name = f"{name}.gif"
     gif_path = GIFS_DIR / gif_name
     gif_md = ""
@@ -71,11 +70,6 @@ def build_repo_line(repo: dict) -> str:
 
 
 def build_gif_gallery(repos: List[dict]) -> str:
-    """
-    Gera uma tabela HTML com 2 colunas a partir de arquivos .gif em assets/gifs.
-    Se o nome do gif corresponder ao nome de um repositório, cria link para o repo.
-    Ordena por estrelas (desc) quando possível, caso contrário por nome.
-    """
     repo_by_name: Dict[str, dict] = {r["name"]: r for r in repos}
     items = []
     for gif in sorted(GIFS_DIR.glob("*.gif")):
@@ -94,7 +88,6 @@ def build_gif_gallery(repos: List[dict]) -> str:
             }
         )
 
-    # ordenar por estrelas desc e nome
     items.sort(key=lambda x: (x["stars"], x["repo_name"].lower()), reverse=True)
 
     if not items:
@@ -102,7 +95,6 @@ def build_gif_gallery(repos: List[dict]) -> str:
             '<div align="center"><i>Adicione GIFs em <code>assets/gifs</code> com o mesmo nome do repositório (ex.: meu-app.gif)</i></div>'
         )
 
-    # montar tabela 2 colunas
     html = ['<div align="center">', "<table>"]
     for i in range(0, len(items), 2):
         html.append("<tr>")
@@ -141,7 +133,6 @@ def update_readme_section(readme_path: str, start_tag: str, end_tag: str, new_co
     replacement = f"<!-- {start_tag} -->\n{new_content}\n<!-- {end_tag} -->"
     new_md, count = re.subn(pattern, replacement, content)
     if count == 0:
-        # Se as tags não existirem, apenas anexa ao final
         new_md = content + f"\n\n{replacement}\n"
 
     with open(readme_path, "w", encoding="utf-8") as f:
@@ -150,9 +141,7 @@ def update_readme_section(readme_path: str, start_tag: str, end_tag: str, new_co
 
 def main() -> None:
     repos = fetch_all_repos(GH_USERNAME)
-    # filtra
     repos = [r for r in repos if not r.get("fork") and not r.get("archived")]
-    # ordena: stars desc, depois pushed_at desc
     repos.sort(
         key=lambda r: (
             r.get("stargazers_count", 0),
@@ -161,19 +150,15 @@ def main() -> None:
         reverse=True,
     )
 
-    # Top N repos
     top = repos[:12]
     lines = [build_repo_line(r) for r in top]
     md_repos = "\n".join(lines).strip()
 
-    # GIF gallery
     md_gifs = build_gif_gallery(repos)
 
-    # Atualiza seções no README
     update_readme_section(README_PATH, "REPOS:START", "REPOS:END", md_repos)
     update_readme_section(README_PATH, "GIFS:START", "GIFS:END", md_gifs)
 
-    # Gera JSON para badge custom de atividade
     now = datetime.now(timezone.utc)
     payload = {
         "schemaVersion": 1,
