@@ -4,20 +4,27 @@
 </p>
 
 <h2 align="center">👋 Olá! Eu sou o Eduardo</h2>
-<p align="justify">
-Desenvolvedor mobile especializado em <b>Flutter/Dart</b>, com experiência em <i>integração entre dispositivos</i>, <i>robótica</i>, <i>jogos</i> e <i>apps multiplataforma</i>. Apaixonado por protocolos de conexão (<b>Wi‑Fi Direct</b>, <b>Bluetooth</b>, <b>Hotspot</b>) e por <i>arquiteturas performáticas</i> (Clean Architecture, BLoC/Riverpod, camadas bem definidas).
-<br/><br/>
-Também atuo com <b>web</b> e <b>desktop</b>, back‑ends em <b>Firebase</b>/<b>Supabase</b>, integrações com <b>ESP32</b>, testes automatizados e <b>CI/CD</b> com GitHub Actions.
-<br/><br/>
-Atualmente: explorando comunicação P2P/mesh, sincronização em tempo real (e offline‑first) e otimizações de rendering no Flutter.
+<p align="center">
+Desenvolvedor mobile com foco em <b>Flutter/Dart</b>, criando apps performáticos, responsivos e multiplataforma.  
+Tenho experiência em comunicação entre dispositivos (<b>Wi‑Fi Direct</b>, <b>Bluetooth</b>, <b>Hotspot</b>), arquiteturas robustas (<b>Clean Architecture</b>, <b>BLoC/Riverpod</b>) e integração com back-ends via <b>Firebase</b> e <b>Supabase</b> (BaaS).  
+Também atuo com <b>desenvolvimento web</b> e <b>desktop</b>, além de projetos de <b>IoT</b> e <b>games</b>.  
+Apaixonado por otimizações de rendering, sincronização em tempo real e experiências multiplataforma.
 </p>
 
+
 <p align="center">
-  <a href="https://github.com/EduardoSA8006/EduardoSA8006/actions/workflows/update-readme.yml">
-    <img alt="Status do Workflow" src="https://img.shields.io/github/actions/workflow/status/EduardoSA8006/EduardoSA8006/update-readme.yml?label=Auto%20Update%20README&logo=github" />
-  </a>
-  <img alt="Último commit" src="https://img.shields.io/github/last-commit/EduardoSA8006/EduardoSA8006?logo=git" />
-  <img alt="Seguidores" src="https://img.shields.io/github/followers/EduardoSA8006?style=social" />
+  <img
+    src="https://streak-stats.demolab.com/?user=EduardoSA8006&theme=tokyonight&hide_border=true&v=1"
+    height="160"
+    alt="GitHub Streak de Eduardo"
+    loading="lazy"
+  />
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=EduardoSA8006&show_icons=true&theme=tokyonight&hide_border=true"
+    height="160"
+    alt="GitHub Stats de Eduardo"
+    loading="lazy"
+  />
 </p>
 
 <p align="center">
