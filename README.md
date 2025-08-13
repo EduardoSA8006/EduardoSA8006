@@ -4,8 +4,12 @@
 </p>
 
 <h2 align="center">👋 Olá! Eu sou o Eduardo</h2>
-<p align="center">
-Desenvolvedor focado em apps mobiles, com profundo conhecimento em <b>Flutter/Dart</b>, integração entre dispositivos, <i>robótica</i>, <i>jogos</i> e <i>apps multiplataforma</i>. Curioso por protocolos de conexão (Wi‑Fi Direct, Bluetooth, Hotspot) e por arquiteturas performáticas. Também trabalho com desenvolvimento web e desktop.
+<p align="justify">
+Desenvolvedor mobile especializado em <b>Flutter/Dart</b>, com experiência em <i>integração entre dispositivos</i>, <i>robótica</i>, <i>jogos</i> e <i>apps multiplataforma</i>. Apaixonado por protocolos de conexão (<b>Wi‑Fi Direct</b>, <b>Bluetooth</b>, <b>Hotspot</b>) e por <i>arquiteturas performáticas</i> (Clean Architecture, BLoC/Riverpod, camadas bem definidas).
+<br/><br/>
+Também atuo com <b>web</b> e <b>desktop</b>, back‑ends em <b>Firebase</b>/<b>Supabase</b>, integrações com <b>ESP32</b>, testes automatizados e <b>CI/CD</b> com GitHub Actions.
+<br/><br/>
+Atualmente: explorando comunicação P2P/mesh, sincronização em tempo real (e offline‑first) e otimizações de rendering no Flutter.
 </p>
 
 <p align="center">
@@ -47,15 +51,39 @@ Desenvolvedor focado em apps mobiles, com profundo conhecimento em <b>Flutter/Da
 
 <h2 align="center">🚀 Meus Projetos</h2>
 
-<!-- REPOS:START -->
-<!-- Esta seção é gerada automaticamente por scripts/update_readme.py com base em scripts/repos.config.json -->
-<!-- REPOS:END -->
+<!-- Mobile / Flutter -->
+<h3>📱 Mobile / Flutter</h3>
+- <img src="https://img.icons8.com/color/48/flutter.png" width="20"/> <a href="https://github.com/EduardoSA8006/EduardoSA8006"><b>EduardoSA8006</b></a> — Central de experimentos em Flutter, web e desktop com scripts automáticos.
+  <br/>
+  <img alt="stars" src="https://img.shields.io/github/stars/EduardoSA8006/EduardoSA8006?style=social"/> 
+  <img alt="last commit" src="https://img.shields.io/github/last-commit/EduardoSA8006/EduardoSA8006?logo=git"/>
 
-<h2 align="center">🎬 Demos</h2>
+- <img src="https://img.icons8.com/color/48/flutter.png" width="20"/> <a href="https://github.com/EduardoSA8006/Minecraft-Minigames"><b>Minecraft-Minigames</b></a> — Minigames inspirados em Minecraft com integração online via Firebase, desenvolvido em Flutter/Dart.
+  <br/>
+  <img alt="stars" src="https://img.shields.io/github/stars/EduardoSA8006/Minecraft-Minigames?style=social"/> 
+  <img alt="last commit" src="https://img.shields.io/github/last-commit/EduardoSA8006/Minecraft-Minigames?logo=git"/>
 
-<!-- GIFS:START -->
-<!-- Esta seção é gerada automaticamente por scripts/update_readme.py com base nos GIFs em assets/gifs -->
-<!-- GIFS:END -->
+<!-- Web / Front-end -->
+<h3>💻 Web / Front-end</h3>
+- <img src="https://img.icons8.com/color/48/vuejs.png" width="20"/> <a href="https://github.com/EduardoSA8006/pokedex"><b>pokedex</b></a> — Catálogo Pokémon desenvolvido em Vue.js com Vuetify, interface moderna e responsiva.
+  <br/>
+  <img alt="stars" src="https://img.shields.io/github/stars/EduardoSA8006/pokedex?style=social"/> 
+  <img alt="last commit" src="https://img.shields.io/github/last-commit/EduardoSA8006/pokedex?logo=git"/>
+
+- <img src="https://img.icons8.com/color/48/html-5.png" width="20"/> <a href="https://github.com/EduardoSA8006/pagina-pessoal"><b>pagina-pessoal</b></a> — Página pessoal e portfólio web responsivo.
+  <br/>
+  <img alt="stars" src="https://img.shields.io/github/stars/EduardoSA8006/pagina-pessoal?style=social"/> 
+  <img alt="last commit" src="https://img.shields.io/github/last-commit/EduardoSA8006/pagina-pessoal?logo=git"/>
+
+- <img src="https://img.icons8.com/color/48/html-5.png" width="20"/> <a href="https://github.com/EduardoSA8006/Persona-Web-Arthur-Leywin"><b>Persona-Web-Arthur-Leywin</b></a> — Projeto web de fãs com design interativo e conteúdo temático.
+  <br/>
+  <img alt="stars" src="https://img.shields.io/github/stars/EduardoSA8006/Persona-Web-Arthur-Leywin?style=social"/> 
+  <img alt="last commit" src="https://img.shields.io/github/last-commit/EduardoSA8006/Persona-Web-Arthur-Leywin?logo=git"/>
+
+- <img src="https://img.icons8.com/color/48/html-5.png" width="20"/> <a href="https://github.com/EduardoSA8006/Site-de-vendas-1"><b>Site-de-vendas-1</b></a> — Site de vendas com interface responsiva, páginas de produtos e carrinho.
+  <br/>
+  <img alt="stars" src="https://img.shields.io/github/stars/EduardoSA8006/Site-de-vendas-1?style=social"/> 
+  <img alt="last commit" src="https://img.shields.io/github/last-commit/EduardoSA8006/Site-de-vendas-1?logo=git"/>
 
 <p align="center">
   <!-- Contatos -->
