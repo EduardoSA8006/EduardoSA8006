@@ -11,7 +11,7 @@ Também atuo com <b>desenvolvimento web</b> e <b>desktop</b>, além de projetos 
 Apaixonado por otimizações de rendering, sincronização em tempo real e experiências multiplataforma.
 </p>
 
-
+<!-- GitHub Stats (único bloco) -->
 <p align="center">
   <img
     src="https://streak-stats.demolab.com/?user=EduardoSA8006&theme=tokyonight&hide_border=true&v=1"
@@ -44,12 +44,6 @@ Apaixonado por otimizações de rendering, sincronização em tempo real e exper
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white"/>
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"/>
-</p>
-
-<p align="center">
-  <!-- GitHub Stats -->
-  <img src="https://streak-stats.demolab.com?user=EduardoSA8006&theme=tokyonight&hide_border=true" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api?username=EduardoSA8006&show_icons=true&theme=tokyonight&hide_border=true" height="160"/>
 </p>
 
 <p align="center">
