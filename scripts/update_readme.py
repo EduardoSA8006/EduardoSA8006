@@ -5,7 +5,7 @@ from datetime import datetime, timezone
 from dateutil import parser as dtparser
 import requests
 from pathlib import Path
-from typing import List, Dict
+from typing import List, Dict, Optional
 
 GH_USERNAME = os.environ.get("GH_USERNAME", "EduardoSA8006")
 API = "https://api.github.com"
@@ -18,9 +18,104 @@ HEADERS = {
 README_PATH = "README.md"
 SHIELDS_DIR = Path("assets/shields")
 GIFS_DIR = Path("assets/gifs")
+SCRIPTS_DIR = Path("scripts")
+REPO_DESCRIPTIONS_FILE = SCRIPTS_DIR / "repo_descriptions.json"
 
 SHIELDS_DIR.mkdir(parents=True, exist_ok=True)
 GIFS_DIR.mkdir(parents=True, exist_ok=True)
+
+
+def load_repo_descriptions() -> Dict[str, str]:
+    """Load repository description overrides from JSON file."""
+    try:
+        if REPO_DESCRIPTIONS_FILE.exists():
+            with open(REPO_DESCRIPTIONS_FILE, "r", encoding="utf-8") as f:
+                return json.load(f)
+    except (json.JSONDecodeError, IOError) as e:
+        print(f"Warning: Could not load repo descriptions file: {e}")
+    return {}
+
+
+def get_readme_summary(owner: str, repo: str) -> Optional[str]:
+    """Extract a summary from the repository's README file."""
+    try:
+        url = f"{API}/repos/{owner}/{repo}/readme"
+        r = requests.get(url, headers=HEADERS, timeout=30)
+        if r.status_code != 200:
+            return None
+            
+        content = r.json().get("content", "")
+        if not content:
+            return None
+            
+        # Decode base64 content
+        import base64
+        decoded = base64.b64decode(content).decode("utf-8", errors="ignore")
+        
+        # Remove markdown headers and extract first meaningful paragraph
+        lines = decoded.split("\n")
+        paragraph_lines = []
+        
+        for line in lines:
+            line = line.strip()
+            if not line:
+                continue
+                
+            # Skip headers, badges, and HTML tags
+            if (line.startswith("#") or 
+                line.startswith("![]") or 
+                line.startswith("[![") or
+                line.startswith("<") or
+                "shield" in line.lower() or
+                "badge" in line.lower()):
+                continue
+                
+            # Clean up markdown formatting
+            clean_line = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', line)  # Remove links
+            clean_line = re.sub(r'\*\*([^*]+)\*\*', r'\1', clean_line)  # Remove bold
+            clean_line = re.sub(r'\*([^*]+)\*', r'\1', clean_line)      # Remove italic
+            clean_line = re.sub(r'`([^`]+)`', r'\1', clean_line)        # Remove code
+            clean_line = clean_line.strip()
+            
+            if clean_line and len(clean_line) > 10:  # Meaningful content
+                paragraph_lines.append(clean_line)
+                
+            # Stop at first good paragraph or when we have enough content
+            text = " ".join(paragraph_lines)
+            if len(text) > 50:
+                break
+                
+        summary = " ".join(paragraph_lines)
+        if len(summary) > 140:
+            summary = summary[:137] + "..."
+            
+        return summary if len(summary) > 10 else None
+        
+    except Exception as e:
+        print(f"Warning: Could not extract README summary for {owner}/{repo}: {e}")
+        return None
+
+
+def get_repo_description(repo: dict, overrides: Dict[str, str]) -> str:
+    """Get repository description with fallback logic."""
+    name = repo["name"]
+    
+    # 1. Use GitHub API description if available
+    api_desc = repo.get("description")
+    if api_desc and api_desc.strip():
+        return api_desc.strip()
+    
+    # 2. Use local override if available
+    if name in overrides:
+        return overrides[name]
+    
+    # 3. Try to extract summary from README
+    readme_summary = get_readme_summary(GH_USERNAME, name)
+    if readme_summary:
+        return readme_summary
+    
+    # 4. Final fallback
+    return "Sem descrição"
 
 
 def fetch_all_repos(user: str) -> List[dict]:
@@ -43,10 +138,10 @@ def human_dt(iso: str) -> str:
     return dt.strftime("%d %b %Y")
 
 
-def build_repo_line(repo: dict) -> str:
+def build_repo_line(repo: dict, overrides: Dict[str, str]) -> str:
     name = repo["name"]
     full = repo["full_name"]
-    desc = repo.get("description") or "Sem descrição"
+    desc = get_repo_description(repo, overrides)
     stars = repo.get("stargazers_count", 0)
     pushed = human_dt(repo["pushed_at"])
     html_url = repo["html_url"]
@@ -140,6 +235,9 @@ def update_readme_section(readme_path: str, start_tag: str, end_tag: str, new_co
 
 
 def main() -> None:
+    # Load repository description overrides
+    repo_overrides = load_repo_descriptions()
+    
     repos = fetch_all_repos(GH_USERNAME)
     repos = [r for r in repos if not r.get("fork") and not r.get("archived")]
     repos.sort(
@@ -151,7 +249,7 @@ def main() -> None:
     )
 
     top = repos[:12]
-    lines = [build_repo_line(r) for r in top]
+    lines = [build_repo_line(r, repo_overrides) for r in top]
     md_repos = "\n".join(lines).strip()
 
     md_gifs = build_gif_gallery(repos)
