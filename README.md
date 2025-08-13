@@ -7,9 +7,11 @@
 
 <!-- Observação: GitHub não permite CSS customizado, então usamos align="justify",
      que é aceito pelo sanitizador do GitHub para P/Div na maioria dos navegadores. -->
-<div align="justify" style="margin-bottom: 20px;>
+<div align="justify">
 Desenvolvedor mobile com foco em <b>Flutter/Dart</b>, criando apps performáticos, responsivos e multiplataforma. Tenho experiência em comunicação entre dispositivos (<b>Wi‑Fi Direct</b>, <b>Bluetooth</b>, <b>Hotspot</b>), arquiteturas robustas (<b>Clean Architecture</b>, <b>BLoC/Riverpod</b>) e integração com back-ends via <b>Firebase</b> e <b>Supabase</b> (BaaS). Também atuo com <b>desenvolvimento web</b> e <b>desktop</b>, além de projetos de <b>IoT</b> e <b>games</b>. Apaixonado por otimizações de rendering, sincronização em tempo real e experiências multiplataforma.
 </div>
+<br/>
+<br/>
 
 <p align="center">
   <!-- Linguagens e Frameworks -->
