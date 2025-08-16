@@ -99,7 +99,7 @@ Desenvolvedor focado em <b>Flutter/Dart</b>, integrações entre dispositivos, <
 <!-- REPOS:START -->
 - <a href="https://github.com/EduardoSA8006/EduardoSA8006"><b>EduardoSA8006</b></a> — Sem descrição 
   <br/>
-  <img alt="stars" src="https://img.shields.io/github/stars/EduardoSA8006/EduardoSA8006?style=social"/>   <img alt="last commit" src="https://img.shields.io/github/last-commit/EduardoSA8006/EduardoSA8006?logo=git"/>   <sub>Atualizado: 15 Aug 2025</sub>
+  <img alt="stars" src="https://img.shields.io/github/stars/EduardoSA8006/EduardoSA8006?style=social"/>   <img alt="last commit" src="https://img.shields.io/github/last-commit/EduardoSA8006/EduardoSA8006?logo=git"/>   <sub>Atualizado: 16 Aug 2025</sub>
 
 - <a href="https://github.com/EduardoSA8006/pokedex"><b>pokedex</b></a> — Sem descrição 
   <br/>
