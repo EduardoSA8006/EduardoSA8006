@@ -1,0 +1,55 @@
+{
+    "sections": [
+        {
+            "title": "📱 Mobile / Flutter",
+            "repos": [
+                {
+                    "name": "EduardoSA8006",
+                    "icon": "https://img.icons8.com/color/48/flutter.png",
+                    "description": "Central de experimentos em Flutter, web e desktop com scripts automáticos."
+                },
+                {
+                    "name": "Minecraft-Minigames",
+                    "icon": "https://img.icons8.com/color/48/flutter.png",
+                    "description": "Minigames inspirados em Minecraft com integração online via Firebase, desenvolvido em Flutter/Dart."
+                }
+            ]
+        },
+        {
+            "title": "💻 Web / Front-end",
+            "repos": [
+                {
+                    "name": "pokedex",
+                    "icon": "https://img.icons8.com/color/48/vuejs.png",
+                    "description": "Catálogo Pokémon desenvolvido em Vue.js com Vuetify, interface moderna e responsiva."
+                },
+                {
+                    "name": "pagina-pessoal",
+                    "icon": "https://img.icons8.com/color/48/html-5.png",
+                    "description": "Página pessoal e portfólio web responsivo."
+                },
+                {
+                    "name": "Persona-Web-Arthur-Leywin",
+                    "icon": "https://img.icons8.com/color/48/html-5.png",
+                    "description": "Projeto web de fãs com design interativo e conteúdo temático."
+                },
+                {
+                    "name": "Site-de-vendas-1",
+                    "icon": "https://img.icons8.com/color/48/html-5.png",
+                    "description": "Site de vendas com interface responsiva, páginas de produtos e carrinho."
+                }
+            ]
+        }
+    ],
+    "gif_gallery": {
+        "enabled": true,
+        "only_selected_repos": true,
+        "columns": 2,
+        "width": 360
+    },
+    "badges": {
+        "stars_style": "social",
+        "show_last_commit": true,
+        "show_updated_date": true
+    }
+}
