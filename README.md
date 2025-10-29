@@ -3,7 +3,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1abc9c,100:3498db&height=200&section=header&text=Eduardo%20de%20Souza&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35" />
 </p>
 
-<h2 align="center">👋 Olá! Eu sou o Eduardo</h2>
+<h2 align="center">Olá! Eu sou o Eduardo</h2>
 
 <!-- Observação: GitHub não permite CSS customizado, então usamos align="justify",
      que é aceito pelo sanitizador do GitHub para P/Div na maioria dos navegadores. -->
