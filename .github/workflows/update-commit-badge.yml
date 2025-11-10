@@ -1,0 +1,39 @@
+name: Update Commit Badge
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Atualiza todo dia à meia-noite
+  workflow_dispatch: # Permite rodar manualmente
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Get commit count (public + private)
+        run: |
+          commits=$(curl -s -H "Authorization: token ${{ secrets.GH_TOKEN }}" \
+            https://api.github.com/search/commits?q=author:EduardoSA8006 \
+            -H "Accept: application/vnd.github.cloak-preview" | jq '.total_count')
+
+          echo "Commits totais: $commits"
+          mkdir -p assets/shields
+
+          cat <<EOF > assets/shields/commit-activity.json
+          {
+            "schemaVersion": 1,
+            "label": "Commits",
+            "message": "$commits",
+            "color": "blue"
+          }
+          EOF
+
+      - name: Commit and push badge JSON
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/shields/commit-activity.json
+          git commit -m "update commit badge"
+          git push
