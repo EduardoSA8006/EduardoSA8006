@@ -1,1 +1,6 @@
-{"schemaVersion": 1, "label": "commit activity", "message": "2025-11-10 21:54 UTC", "color": "blue", "labelColor": "black", "isError": false, "namedLogo": "git"}
+{
+  "schemaVersion": 1,
+  "label": "Commits",
+  "message": "74",
+  "color": "blue"
+}
