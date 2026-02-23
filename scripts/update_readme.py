@@ -1,7 +1,6 @@
 import json
 import os
 import re
-from datetime import datetime, timezone
 from dateutil import parser as dtparser
 import requests
 from pathlib import Path
@@ -183,15 +182,27 @@ def update_readme_section(readme_path: str, start_tag: str, end_tag: str, new_co
         f.write(new_md)
 
 
+def fetch_total_commits() -> int:
+    """Fetch total commit count (public + private) via the search API."""
+    if not TOKEN:
+        return 0
+    url = f"{API}/search/commits?q=author:{GH_USERNAME}"
+    r = requests.get(
+        url,
+        headers={**HEADERS, "Accept": "application/vnd.github.cloak-preview"},
+        timeout=30,
+    )
+    r.raise_for_status()
+    return int(r.json().get("total_count", 0))
+
+
 def write_commit_activity_shield() -> None:
-    now = datetime.now(timezone.utc)
+    count = fetch_total_commits()
     payload = {
         "schemaVersion": 1,
-        "label": "commit activity",
-        "message": now.strftime("%Y-%m-%d %H:%M UTC"),
-        "color": "blue",
-        "labelColor": "black",
-        "isError": False,
+        "label": "Commits",
+        "message": str(count) if count > 0 else "N/A",
+        "color": "blue" if count > 0 else "grey",
         "namedLogo": "git",
     }
     with open(SHIELDS_DIR / "commit-activity.json", "w", encoding="utf-8") as f:
