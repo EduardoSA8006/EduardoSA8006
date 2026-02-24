@@ -79,3 +79,50 @@ Atuo também com <b>desenvolvimento web</b> e <b>desktop</b>, além de projetos 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3498db,100:1abc9c&height=120&section=footer"/>
 </p>
+
+
+<!-- REPOS:START -->
+<h3>📱 Mobile / Flutter</h3>
+- <img src="https://img.icons8.com/color/48/flutter.png" width="20"/> <a href="https://github.com/EduardoSA8006/EduardoSA8006"><b>EduardoSA8006</b></a> — Central de experimentos em Flutter, web e desktop com scripts automáticos.
+  <br/>
+  <img alt="stars" src="https://img.shields.io/github/stars/EduardoSA8006/EduardoSA8006?style=social"/>
+  <img alt="last commit" src="https://img.shields.io/github/last-commit/EduardoSA8006/EduardoSA8006?logo=git"/>
+  <sub>Atualizado: 23 Feb 2026</sub>
+
+- <img src="https://img.icons8.com/color/48/flutter.png" width="20"/> <a href="https://github.com/EduardoSA8006/Minecraft-Minigames"><b>Minecraft-Minigames</b></a> — Minigames inspirados em Minecraft com integração online via Firebase, desenvolvido em Flutter/Dart.
+  <br/>
+  <img alt="stars" src="https://img.shields.io/github/stars/EduardoSA8006/Minecraft-Minigames?style=social"/>
+  <img alt="last commit" src="https://img.shields.io/github/last-commit/EduardoSA8006/Minecraft-Minigames?logo=git"/>
+  <sub>Atualizado: 17 Jun 2025</sub>
+
+
+<h3>💻 Web / Front-end</h3>
+- <img src="https://img.icons8.com/color/48/vuejs.png" width="20"/> <a href="https://github.com/EduardoSA8006/pokedex"><b>pokedex</b></a> — Catálogo Pokémon desenvolvido em Vue.js com Vuetify, interface moderna e responsiva.
+  <br/>
+  <img alt="stars" src="https://img.shields.io/github/stars/EduardoSA8006/pokedex?style=social"/>
+  <img alt="last commit" src="https://img.shields.io/github/last-commit/EduardoSA8006/pokedex?logo=git"/>
+  <sub>Atualizado: 18 Jul 2025</sub>
+
+- <img src="https://img.icons8.com/color/48/html-5.png" width="20"/> <a href="https://github.com/EduardoSA8006/potfolio-online"><b>potfolio-online</b></a> — Página pessoal e portfólio web responsivo.
+  <br/>
+  <img alt="stars" src="https://img.shields.io/github/stars/EduardoSA8006/potfolio-online?style=social"/>
+  <img alt="last commit" src="https://img.shields.io/github/last-commit/EduardoSA8006/potfolio-online?logo=git"/>
+  <sub>Atualizado: 21 Feb 2026</sub>
+
+- <img src="https://img.icons8.com/color/48/html-5.png" width="20"/> <a href="https://github.com/EduardoSA8006/Persona-Web-Arthur-Leywin"><b>Persona-Web-Arthur-Leywin</b></a> — Projeto web de fãs com design interativo e conteúdo temático.
+  <br/>
+  <img alt="stars" src="https://img.shields.io/github/stars/EduardoSA8006/Persona-Web-Arthur-Leywin?style=social"/>
+  <img alt="last commit" src="https://img.shields.io/github/last-commit/EduardoSA8006/Persona-Web-Arthur-Leywin?logo=git"/>
+  <sub>Atualizado: 02 Dec 2025</sub>
+
+- <img src="https://img.icons8.com/color/48/html-5.png" width="20"/> <a href="https://github.com/EduardoSA8006/Site-de-vendas-1"><b>Site-de-vendas-1</b></a> — Site de vendas com interface responsiva, páginas de produtos e carrinho.
+  <br/>
+  <img alt="stars" src="https://img.shields.io/github/stars/EduardoSA8006/Site-de-vendas-1?style=social"/>
+  <img alt="last commit" src="https://img.shields.io/github/last-commit/EduardoSA8006/Site-de-vendas-1?logo=git"/>
+  <sub>Atualizado: 03 Apr 2025</sub>
+<!-- REPOS:END -->
+
+
+<!-- GIFS:START -->
+<div align="center"><i>Adicione GIFs em <code>assets/gifs</code> com o mesmo nome do repositório (ex.: meu-app.gif)</i></div>
+<!-- GIFS:END -->
