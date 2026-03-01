@@ -87,7 +87,7 @@ Atuo também com <b>desenvolvimento web</b> e <b>desktop</b>, além de projetos 
   <br/>
   <img alt="stars" src="https://img.shields.io/github/stars/EduardoSA8006/EduardoSA8006?style=social"/>
   <img alt="last commit" src="https://img.shields.io/github/last-commit/EduardoSA8006/EduardoSA8006?logo=git"/>
-  <sub>Atualizado: 27 Feb 2026</sub>
+  <sub>Atualizado: 28 Feb 2026</sub>
 
 - <img src="https://img.icons8.com/color/48/flutter.png" width="20"/> <a href="https://github.com/EduardoSA8006/Minecraft-Minigames"><b>Minecraft-Minigames</b></a> — Minigames inspirados em Minecraft com integração online via Firebase, desenvolvido em Flutter/Dart.
   <br/>
