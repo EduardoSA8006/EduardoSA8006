@@ -183,26 +183,85 @@ def update_readme_section(readme_path: str, start_tag: str, end_tag: str, new_co
 
 
 def fetch_total_commits() -> int:
-    """Fetch total commit count (public + private) via the search API."""
+    """
+    Fetch total commit count (public + private).
+    Uses the GraphQL API (contributionsCollection) which includes
+    private commits when the token has 'repo' scope.
+    Falls back to the REST Search API if GraphQL fails.
+    """
     if not TOKEN:
+        print("⚠️  GITHUB_TOKEN not set — commit count will be 0")
         return 0
-    url = f"{API}/search/commits?q=author:{GH_USERNAME}"
-    r = requests.get(
-        url,
-        headers={**HEADERS, "Accept": "application/vnd.github.cloak-preview"},
-        timeout=30,
-    )
-    r.raise_for_status()
-    return int(r.json().get("total_count", 0))
+
+    # --- Try GraphQL first (includes private commits) ---
+    graphql_url = "https://api.github.com/graphql"
+    query = """
+    query($login: String!) {
+      user(login: $login) {
+        contributionsCollection {
+          totalCommitContributions
+          restrictedContributionsCount
+        }
+      }
+    }
+    """
+    try:
+        r = requests.post(
+            graphql_url,
+            json={"query": query, "variables": {"login": GH_USERNAME}},
+            headers={"Authorization": f"Bearer {TOKEN}", "Accept": "application/json"},
+            timeout=30,
+        )
+        r.raise_for_status()
+        data = r.json()
+
+        if "errors" in data:
+            print(f"⚠️  GraphQL errors: {data['errors']}")
+        else:
+            cc = data["data"]["user"]["contributionsCollection"]
+            public_commits = int(cc.get("totalCommitContributions", 0))
+            private_commits = int(cc.get("restrictedContributionsCount", 0))
+            total = public_commits + private_commits
+            print(f"✅ GraphQL commit count: {public_commits} public + {private_commits} private = {total} total")
+            return total
+    except Exception as exc:
+        print(f"⚠️  GraphQL request failed: {exc}")
+
+    # --- Fallback: REST Search API (public commits only) ---
+    print("↩️  Falling back to REST Search API (public commits only)")
+    try:
+        url = f"{API}/search/commits?q=author:{GH_USERNAME}"
+        r = requests.get(
+            url,
+            headers={**HEADERS, "Accept": "application/vnd.github.cloak-preview"},
+            timeout=30,
+        )
+        r.raise_for_status()
+        count = int(r.json().get("total_count", 0))
+        print(f"✅ Search API commit count: {count} (public only)")
+        return count
+    except Exception as exc:
+        print(f"❌ Search API also failed: {exc}")
+        return 0
 
 
 def write_commit_activity_shield() -> None:
     count = fetch_total_commits()
+    if count > 0:
+        msg = str(count)
+        color = "1abc9c"  # match profile theme color
+    elif TOKEN:
+        msg = "0"
+        color = "grey"
+    else:
+        msg = "Token needed"
+        color = "red"
+
     payload = {
         "schemaVersion": 1,
         "label": "Commits",
-        "message": str(count) if count > 0 else "N/A",
-        "color": "blue" if count > 0 else "grey",
+        "message": msg,
+        "color": color,
         "namedLogo": "git",
     }
     with open(SHIELDS_DIR / "commit-activity.json", "w", encoding="utf-8") as f:
@@ -210,6 +269,9 @@ def write_commit_activity_shield() -> None:
 
 
 def main() -> None:
+    print(f"🔧 GH_USERNAME: {GH_USERNAME}")
+    print(f"🔑 GITHUB_TOKEN: {'✅ set (' + TOKEN[:4] + '...' + TOKEN[-4:] + ')' if TOKEN else '❌ NOT SET'}")
+
     cfg = load_config(CONFIG_PATH)
 
     # Selected repo names for filtering things like GIF gallery
