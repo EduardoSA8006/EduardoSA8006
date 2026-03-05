@@ -1,36 +1,32 @@
-<!-- ════════════════════════════════════════════════════════════════ -->
-<!--                    🌊 ANIMATED HEADER                          -->
-<!-- ════════════════════════════════════════════════════════════════ -->
+<!-- Banner -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,30:1abc9c,60:3498db,100:9b59b6&height=300&section=header&text=Eduardo%20de%20Souza&fontSize=50&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=⚡%20Mobile%20Developer%20%7C%20Flutter%20%7C%20IoT%20%7C%20Web%20⚡&descAlignY=55&descSize=20&descColor=a0d2db&stroke=1abc9c&strokeWidth=2" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1abc9c,100:3498db&height=200&section=header&text=Eduardo%20de%20Souza&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35" />
 </p>
 
-<!-- ════════════════════════════════════════════════════════════════ -->
-<!--                    ⌨️ TYPING ANIMATION                         -->
-<!-- ════════════════════════════════════════════════════════════════ -->
-<p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=3000&pause=1000&color=1ABC9C&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=600&height=80&lines=%7B+%22developer%22%3A+%22Eduardo+de+Souza%22+%7D;%3E+Building+the+future%2C+one+app+at+a+time+%F0%9F%9A%80" alt="Typing SVG" />
-  </a>
-</p>
+<h2 align="center">Olá! Eu sou o Eduardo 👋</h2>
 
-<!-- Animated Divider -->
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-</p>
+<div align="justify">
+Sou desenvolvedor mobile com foco em <b>Flutter/Dart</b>, criando apps performáticos, responsivos e multiplataforma. Tenho experiência em comunicação entre dispositivos (<b>Wi-Fi Direct</b>, <b>Bluetooth</b>, <b>Hotspot</b>), arquiteturas robustas (<b>Clean Architecture</b>, <b>BLoC/Riverpod</b>) e integração com back-ends via <b>Firebase</b> e <b>Supabase</b> (BaaS).  
+Atuo também com <b>desenvolvimento web</b> e <b>desktop</b>, além de projetos de <b>IoT</b> e <b>games</b>. Apaixonado por otimizações de rendering, sincronização em tempo real e experiências multiplataforma.
+</div>
 
-<!-- ════════════════════════════════════════════════════════════════ -->
-<!--                    🌐 SITE + QUICK INFO                        -->
-<!-- ════════════════════════════════════════════════════════════════ -->
+<br/>
+
+<!-- 🌐 Site Pessoal -->
 <div align="center">
   <a href="https://eduardoalves.online/" target="_blank">
-    <img src="https://img.shields.io/badge/🌐_Meu_Portfolio-eduardoalves.online-1abc9c?style=for-the-badge&logoColor=white&labelColor=0d1117" height="40"/>
+    <img src="https://img.shields.io/badge/🌐_Meu_Portfolio-eduardoalves.online-1abc9c?style=for-the-badge&logoColor=white&labelColor=0d1117" height="35"/>
   </a>
   &nbsp;&nbsp;
   <img src="https://komarev.com/ghpvc/?username=EduardoSA8006&color=1abc9c&style=for-the-badge&label=👀+VIEWS" alt="Profile views"/>
 </div>
 
 <br/>
+
+<!-- Animated Divider -->
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+</p>
 
 <!-- ════════════════════════════════════════════════════════════════ -->
 <!--                    👤 ABOUT ME - ANIMATED                      -->
@@ -271,5 +267,5 @@ hobbies:
 <!--                    🌊 ANIMATED FOOTER                          -->
 <!-- ════════════════════════════════════════════════════════════════ -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=shark&color=0:9b59b6,30:3498db,60:1abc9c,100:0d1117&height=150&section=footer&text=Obrigado%20pela%20visita!%20⭐&fontSize=24&fontColor=ffffff&animation=twinkling&fontAlignY=70" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3498db,100:1abc9c&height=120&section=footer"/>
 </p>
