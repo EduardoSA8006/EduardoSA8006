@@ -1,83 +1,108 @@
-<!-- Banner -->
+<!-- ════════════════════════════════════════════════════════════════ -->
+<!--                    🌊 ANIMATED HEADER                          -->
+<!-- ════════════════════════════════════════════════════════════════ -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1abc9c,100:3498db&height=220&section=header&text=Eduardo%20de%20Souza&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=32&desc=Mobile%20Developer%20%7C%20Flutter%20%7C%20IoT%20%7C%20Web&descAlignY=52&descSize=18&descColor=a0d2db" />
+  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,30:1abc9c,60:3498db,100:9b59b6&height=300&section=header&text=Eduardo%20de%20Souza&fontSize=50&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=⚡%20Mobile%20Developer%20%7C%20Flutter%20%7C%20IoT%20%7C%20Web%20⚡&descAlignY=55&descSize=20&descColor=a0d2db&stroke=1abc9c&strokeWidth=2" width="100%"/>
 </p>
 
-<!-- Typing SVG -->
+<!-- ════════════════════════════════════════════════════════════════ -->
+<!--                    ⌨️ TYPING ANIMATION                         -->
+<!-- ════════════════════════════════════════════════════════════════ -->
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=1ABC9C&center=true&vCenter=true&random=false&width=520&lines=%F0%9F%93%B1+Mobile+Developer+%7C+Flutter+%26+Dart;%F0%9F%8C%90+Web+%7C+Vue.js+%7C+Django+%7C+Node.js;%F0%9F%A4%96+IoT+%7C+ESP32+%7C+Bluetooth+%7C+Wi-Fi;%F0%9F%8E%AE+Game+Dev+%7C+Roblox+%7C+Lua" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=3000&pause=1000&color=1ABC9C&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=600&height=80&lines=%7B+%22developer%22%3A+%22Eduardo+de+Souza%22+%7D;%3E+Building+the+future%2C+one+app+at+a+time+%F0%9F%9A%80" alt="Typing SVG" />
   </a>
 </p>
 
-<br/>
+<!-- Animated Divider -->
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+</p>
 
-<!-- 🌐 Site Pessoal -->
+<!-- ════════════════════════════════════════════════════════════════ -->
+<!--                    🌐 SITE + QUICK INFO                        -->
+<!-- ════════════════════════════════════════════════════════════════ -->
 <div align="center">
   <a href="https://eduardoalves.online/" target="_blank">
-    <img src="https://img.shields.io/badge/🌐_Meu_Site-eduardoalves.online-1abc9c?style=for-the-badge&logoColor=white&labelColor=0d1117" height="35"/>
+    <img src="https://img.shields.io/badge/🌐_Meu_Portfolio-eduardoalves.online-1abc9c?style=for-the-badge&logoColor=white&labelColor=0d1117" height="40"/>
   </a>
+  &nbsp;&nbsp;
+  <img src="https://komarev.com/ghpvc/?username=EduardoSA8006&color=1abc9c&style=for-the-badge&label=👀+VIEWS" alt="Profile views"/>
 </div>
 
 <br/>
 
-<!-- 👤 Sobre mim -->
+<!-- ════════════════════════════════════════════════════════════════ -->
+<!--                    👤 ABOUT ME - ANIMATED                      -->
+<!-- ════════════════════════════════════════════════════════════════ -->
+<img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="28"> **Sobre Mim**
+
+```yaml
+name: Eduardo de Souza
+located_in: Brasil 🇧🇷
+current_focus: Mobile Development (Flutter/Dart)
+website: https://eduardoalves.online
+
+education:
+  - "Desenvolvedor Full Stack"
+  - "Especialista Mobile (Flutter)"
+
+fields_of_interest:
+  - "📱 Mobile Development"
+  - "🌐 Web Development"
+  - "🤖 IoT & Embedded Systems"
+  - "🎮 Game Development"
+  - "☁️ Cloud & BaaS"
+
+currently_learning:
+  - "🏗️ Clean Architecture & Advanced Patterns"
+  - "📡 Wi-Fi Direct, Bluetooth & Hotspot"
+  - "⚡ Real-time Sync & Rendering Optimization"
+
+hobbies:
+  - "💻 Coding side projects"
+  - "🎮 Gaming & Game Dev"
+  - "🚀 Exploring new technologies"
+```
+
+<br/>
+
+<!-- Animated Divider -->
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+</p>
+
+<!-- ════════════════════════════════════════════════════════════════ -->
+<!--                    🛠️ TECH STACK - ANIMATED ICONS              -->
+<!-- ════════════════════════════════════════════════════════════════ -->
+<h2 align="center">
+  <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30"> Tech Stack & Tools
+</h2>
+
 <div align="center">
-  <img src="https://img.shields.io/badge/-Sobre_Mim-1abc9c?style=flat-square&labelColor=1abc9c&logoColor=white" height="30"/>
+<h3>📱 Mobile & Desktop</h3>
+<a href="#"><img src="https://skillicons.dev/icons?i=dart,flutter,cpp,python&theme=dark" alt="Mobile Skills"/></a>
+<h3>🌐 Web Development</h3>
+<a href="#"><img src="https://skillicons.dev/icons?i=html,css,js,vue,nodejs&theme=dark" alt="Web Skills"/></a>
+<h3>☁️ Backend, BaaS & Database</h3>
+<a href="#"><img src="https://skillicons.dev/icons?i=firebase,supabase,django,nodejs&theme=dark" alt="Backend Skills"/></a>
+<h3>🔧 IoT, Games & Tools</h3>
+<a href="#"><img src="https://skillicons.dev/icons?i=arduino,lua,git,github,vscode&theme=dark" alt="Tools Skills"/></a>
 </div>
 
 <br/>
 
-<div align="center">
-<table>
-<tr>
-<td width="600" align="center">
+<!-- Animated Divider -->
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+</p>
 
-🚀 Desenvolvedor **mobile** com foco em **Flutter/Dart**, criando apps performáticos, responsivos e multiplataforma.
-
-📡 Experiência em comunicação entre dispositivos — **Wi-Fi Direct**, **Bluetooth** e **Hotspot**.
-
-🏗️ Especialista em arquiteturas robustas — **Clean Architecture**, **BLoC** e **Riverpod**.
-
-☁️ Integração com back-ends via **Firebase** e **Supabase** (BaaS).
-
-🌐 Atuo com **desenvolvimento web** e **desktop**, além de projetos de **IoT** e **games**.
-
-⚡ Apaixonado por otimizações de rendering, sincronização em tempo real e experiências multiplataforma.
-
-</td>
-</tr>
-</table>
-</div>
-
-<br/>
-
-<!-- 🛠️ Tech Stack -->
-<div align="center">
-  <img src="https://img.shields.io/badge/-Tech_Stack-3498db?style=flat-square&labelColor=3498db&logoColor=white" height="30"/>
-</div>
-
-<br/>
-
-<div align="center">
-
-| 📱 Mobile & Desktop | 🌐 Web | ☁️ Backend & BaaS | 🔧 IoT & Games |
-|:---:|:---:|:---:|:---:|
-| ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white) | ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) | ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black) | ![ESP32](https://img.shields.io/badge/ESP32-000000?style=flat-square&logo=espressif&logoColor=white) |
-| ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white) | ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) | ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white) | ![Lua](https://img.shields.io/badge/Lua-2C2D72?style=flat-square&logo=lua&logoColor=white) |
-| ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white) | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white) | ![Roblox](https://img.shields.io/badge/Roblox-FF4757?style=flat-square&logo=roblox&logoColor=white) |
-| ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | ![Vue.js](https://img.shields.io/badge/Vue.js-42b883?style=flat-square&logo=vue.js&logoColor=white) | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white) | |
-
-</div>
-
-<br/>
-
-<!-- 📈 GitHub Stats -->
-<div align="center">
-  <img src="https://img.shields.io/badge/-GitHub_Stats-0d1117?style=flat-square&labelColor=0d1117&logoColor=white" height="30"/>
-</div>
-
-<br/>
+<!-- ════════════════════════════════════════════════════════════════ -->
+<!--                    📈 GITHUB STATS - EPIC LAYOUT               -->
+<!-- ════════════════════════════════════════════════════════════════ -->
+<h2 align="center">
+  <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="30"> GitHub Analytics
+</h2>
 
 <p align="center">
   <img 
@@ -87,141 +112,164 @@
   />
 </p>
 
+<!-- Stats Cards Row -->
 <div align="center">
-  <img
-    src="https://streak-stats.vercel.app/?user=EduardoSA8006&theme=tokyonight&hide_border=true&background=0D1117&ring=1abc9c&fire=1abc9c&currStreakLabel=1abc9c"
-    height="170"
-    alt="GitHub Streak de Eduardo"
-    loading="lazy"
-  />
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=EduardoSA8006&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&icon_color=1abc9c&title_color=1abc9c&count_private=true&include_all_commits=true"
-    height="170"
-    alt="GitHub Stats de Eduardo"
-    loading="lazy"
-  />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=EduardoSA8006&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&icon_color=1abc9c&title_color=1abc9c&text_color=a0d2db&count_private=true&include_all_commits=true&ring_color=1abc9c" alt="GitHub Stats"/>
+  <img width="49%" src="https://streak-stats.vercel.app/?user=EduardoSA8006&theme=tokyonight&hide_border=true&background=0D1117&ring=1abc9c&fire=FF6B6B&currStreakLabel=1abc9c&sideLabels=a0d2db&currStreakNum=ffffff&sideNums=ffffff&dates=a0d2db" alt="GitHub Streak"/>
 </div>
 
 <br/>
 
+<!-- Top Languages - Donut Chart -->
 <div align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=EduardoSA8006&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=1abc9c&langs_count=8"
-    height="160"
-    alt="Linguagens mais usadas"
-    loading="lazy"
-  />
+  <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=EduardoSA8006&layout=donut&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=1abc9c&text_color=a0d2db&langs_count=10" alt="Top Languages"/>
 </div>
 
 <br/>
 
-<!-- 📊 Contribution Graph -->
+<!-- Activity Graph -->
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=EduardoSA8006&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=1abc9c&line=3498db&point=1abc9c&area=true&area_color=1abc9c" width="95%" alt="Contribution Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=EduardoSA8006&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=1abc9c&line=3498db&point=FF6B6B&area=true&area_color=1abc9c" width="98%" alt="Contribution Graph" />
 </div>
 
 <br/>
 
-<!-- 🏆 Troféus -->
+<!-- ════════════════════════════════════════════════════════════════ -->
+<!--                    🏆 TROPHIES                                 -->
+<!-- ════════════════════════════════════════════════════════════════ -->
 <div align="center">
-  <img src="https://img.shields.io/badge/-Troféus-1abc9c?style=flat-square&labelColor=1abc9c&logoColor=white" height="30"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=EduardoSA8006&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10&margin-h=10" width="98%" alt="Troféus GitHub" />
 </div>
 
 <br/>
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=EduardoSA8006&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10" width="90%" alt="Troféus GitHub" />
-</div>
+<!-- Animated Divider -->
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+</p>
 
-<br/>
+<!-- ════════════════════════════════════════════════════════════════ -->
+<!--                    🐍 SNAKE ANIMATION                          -->
+<!-- ════════════════════════════════════════════════════════════════ -->
+<h2 align="center">
+  🐍 Minhas Contribuições
+</h2>
 
-<!-- 🔗 Contatos -->
-<div align="center">
-  <img src="https://img.shields.io/badge/-Conecte--se_Comigo-3498db?style=flat-square&labelColor=3498db&logoColor=white" height="30"/>
-</div>
-
-<br/>
-
-<div align="center">
-  <a href="https://eduardoalves.online/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-eduardoalves.online-1abc9c?style=for-the-badge&logo=google-chrome&logoColor=white&labelColor=0d1117" height="35"/>
-  </a>&nbsp;
-  <a href="mailto:eduardodesouza8006@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117" height="35"/>
-  </a>&nbsp;
-  <a href="https://www.linkedin.com/in/seu-linkedin/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117" height="35"/>
-  </a>&nbsp;
-  <a href="https://github.com/EduardoSA8006">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" height="35"/>
-  </a>
-</div>
-
-<br/>
-
-<!-- 👀 Profile Views -->
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=EduardoSA8006&color=1abc9c&style=for-the-badge&label=VISUALIZAÇÕES+DO+PERFIL" alt="Profile views"/>
-</div>
-
-<br/>
-
-<!-- 🐍 Snake Animation -->
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/EduardoSA8006/EduardoSA8006/output/github-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/EduardoSA8006/EduardoSA8006/output/github-snake.svg" />
-    <img alt="Snake animation" src="https://raw.githubusercontent.com/EduardoSA8006/EduardoSA8006/output/github-snake.svg" />
+    <img alt="Snake animation" src="https://raw.githubusercontent.com/EduardoSA8006/EduardoSA8006/output/github-snake.svg" width="100%"/>
   </picture>
 </div>
 
 <br/>
 
+<!-- Animated Divider -->
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+</p>
+
+<!-- ════════════════════════════════════════════════════════════════ -->
+<!--                    🚀 FEATURED PROJECTS                        -->
+<!-- ════════════════════════════════════════════════════════════════ -->
+<h2 align="center">
+  <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30"> Projetos em Destaque
+</h2>
+
 <!-- REPOS:START -->
 <div align="center">
-  <img src="https://img.shields.io/badge/-Projetos_em_Destaque-1abc9c?style=flat-square&labelColor=1abc9c&logoColor=white" height="30"/>
+
+<!-- Project Cards using GitHub Readme Stats -->
+<a href="https://github.com/EduardoSA8006/Minecraft-Minigames">
+  <img width="47%" src="https://github-readme-stats.vercel.app/api/pin/?username=EduardoSA8006&repo=Minecraft-Minigames&theme=tokyonight&hide_border=true&bg_color=0D1117&icon_color=1abc9c&title_color=1abc9c&text_color=a0d2db" />
+</a>
+&nbsp;
+<a href="https://github.com/EduardoSA8006/pokedex">
+  <img width="47%" src="https://github-readme-stats.vercel.app/api/pin/?username=EduardoSA8006&repo=pokedex&theme=tokyonight&hide_border=true&bg_color=0D1117&icon_color=1abc9c&title_color=1abc9c&text_color=a0d2db" />
+</a>
+
+<br/><br/>
+
+<a href="https://github.com/EduardoSA8006/potfolio-online">
+  <img width="47%" src="https://github-readme-stats.vercel.app/api/pin/?username=EduardoSA8006&repo=potfolio-online&theme=tokyonight&hide_border=true&bg_color=0D1117&icon_color=1abc9c&title_color=1abc9c&text_color=a0d2db" />
+</a>
+&nbsp;
+<a href="https://github.com/EduardoSA8006/Persona-Web-Arthur-Leywin">
+  <img width="47%" src="https://github-readme-stats.vercel.app/api/pin/?username=EduardoSA8006&repo=Persona-Web-Arthur-Leywin&theme=tokyonight&hide_border=true&bg_color=0D1117&icon_color=1abc9c&title_color=1abc9c&text_color=a0d2db" />
+</a>
+
+<br/><br/>
+
+<a href="https://github.com/EduardoSA8006/Site-de-vendas-1">
+  <img width="47%" src="https://github-readme-stats.vercel.app/api/pin/?username=EduardoSA8006&repo=Site-de-vendas-1&theme=tokyonight&hide_border=true&bg_color=0D1117&icon_color=1abc9c&title_color=1abc9c&text_color=a0d2db" />
+</a>
+&nbsp;
+<a href="https://github.com/EduardoSA8006/EduardoSA8006">
+  <img width="47%" src="https://github-readme-stats.vercel.app/api/pin/?username=EduardoSA8006&repo=EduardoSA8006&theme=tokyonight&hide_border=true&bg_color=0D1117&icon_color=1abc9c&title_color=1abc9c&text_color=a0d2db" />
+</a>
+
+</div>
+<!-- REPOS:END -->
+
+<br/>
+
+<!-- Animated Divider -->
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+</p>
+
+<!-- ════════════════════════════════════════════════════════════════ -->
+<!--                    📫 CONNECT WITH ME                          -->
+<!-- ════════════════════════════════════════════════════════════════ -->
+<h2 align="center">
+  <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="30"> Conecte-se Comigo
+</h2>
+
+<div align="center">
+  <a href="https://eduardoalves.online/" target="_blank">
+    <img src="https://img.shields.io/badge/🌐_Portfolio-eduardoalves.online-1abc9c?style=for-the-badge&labelColor=0d1117" height="40"/>
+  </a>
+  &nbsp;
+  <a href="mailto:eduardodesouza8006@gmail.com">
+    <img src="https://img.shields.io/badge/📧_Email-Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117" height="40"/>
+  </a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/seu-linkedin/">
+    <img src="https://img.shields.io/badge/💼_LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117" height="40"/>
+  </a>
+  &nbsp;
+  <a href="https://github.com/EduardoSA8006">
+    <img src="https://img.shields.io/badge/🐙_GitHub-Follow-100000?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" height="40"/>
+  </a>
 </div>
 
 <br/>
-<h3>📱 Mobile / Flutter</h3>
-<a href="https://github.com/EduardoSA8006/EduardoSA8006">
-  <img src="https://img.icons8.com/color/48/flutter.png" width="18"/> <b>EduardoSA8006</b>
-</a> — Central de experimentos em Flutter, web e desktop com scripts automáticos.<br/>
-<img alt="stars" src="https://img.shields.io/github/stars/EduardoSA8006/EduardoSA8006?style=flat-square&color=1abc9c"/>
-<img alt="last commit" src="https://img.shields.io/github/last-commit/EduardoSA8006/EduardoSA8006?style=flat-square&logo=git&color=3498db"/>
-<a href="https://github.com/EduardoSA8006/Minecraft-Minigames">
-  <img src="https://img.icons8.com/color/48/flutter.png" width="18"/> <b>Minecraft-Minigames</b>
-</a> — Minigames inspirados em Minecraft com integração online via Firebase, desenvolvido em Flutter/Dart.<br/>
-<img alt="stars" src="https://img.shields.io/github/stars/EduardoSA8006/Minecraft-Minigames?style=flat-square&color=1abc9c"/>
-<img alt="last commit" src="https://img.shields.io/github/last-commit/EduardoSA8006/Minecraft-Minigames?style=flat-square&logo=git&color=3498db"/>
+
+<!-- ════════════════════════════════════════════════════════════════ -->
+<!--                    💬 RANDOM DEV QUOTE                         -->
+<!-- ════════════════════════════════════════════════════════════════ -->
+<div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote" width="70%"/>
+</div>
+
 <br/>
-<h3>💻 Web / Front-end</h3>
-<a href="https://github.com/EduardoSA8006/pokedex">
-  <img src="https://img.icons8.com/color/48/vuejs.png" width="18"/> <b>pokedex</b>
-</a> — Catálogo Pokémon desenvolvido em Vue.js com Vuetify, interface moderna e responsiva.<br/>
-<img alt="stars" src="https://img.shields.io/github/stars/EduardoSA8006/pokedex?style=flat-square&color=1abc9c"/>
-<img alt="last commit" src="https://img.shields.io/github/last-commit/EduardoSA8006/pokedex?style=flat-square&logo=git&color=3498db"/>
-<a href="https://github.com/EduardoSA8006/potfolio-online">
-  <img src="https://img.icons8.com/color/48/html-5.png" width="18"/> <b>potfolio-online</b>
-</a> — Página pessoal e portfólio web responsivo.<br/>
-<img alt="stars" src="https://img.shields.io/github/stars/EduardoSA8006/potfolio-online?style=flat-square&color=1abc9c"/>
-<img alt="last commit" src="https://img.shields.io/github/last-commit/EduardoSA8006/potfolio-online?style=flat-square&logo=git&color=3498db"/>
-<a href="https://github.com/EduardoSA8006/Persona-Web-Arthur-Leywin">
-  <img src="https://img.icons8.com/color/48/html-5.png" width="18"/> <b>Persona-Web-Arthur-Leywin</b>
-</a> — Projeto web de fãs com design interativo e conteúdo temático.<br/>
-<img alt="stars" src="https://img.shields.io/github/stars/EduardoSA8006/Persona-Web-Arthur-Leywin?style=flat-square&color=1abc9c"/>
-<img alt="last commit" src="https://img.shields.io/github/last-commit/EduardoSA8006/Persona-Web-Arthur-Leywin?style=flat-square&color=3498db"/>
-<a href="https://github.com/EduardoSA8006/Site-de-vendas-1">
-  <img src="https://img.icons8.com/color/48/html-5.png" width="18"/> <b>Site-de-vendas-1</b>
-</a> — Site de vendas com interface responsiva, páginas de produtos e carrinho.<br/>
-<img alt="stars" src="https://img.shields.io/github/stars/EduardoSA8006/Site-de-vendas-1?style=flat-square&color=1abc9c"/>
-<img alt="last commit" src="https://img.shields.io/github/last-commit/EduardoSA8006/Site-de-vendas-1?style=flat-square&logo=git&color=3498db"/>
-<!-- REPOS:END -->
+
+<!-- ════════════════════════════════════════════════════════════════ -->
+<!--                    ✍️ RANDOM DEV MEME                          -->
+<!-- ════════════════════════════════════════════════════════════════ -->
+<div align="center">
+  <img src="https://randommeme-five.vercel.app/" alt="Random Dev Meme" width="45%"/>
+</div>
+
 <br/>
+
 <!-- GIFS:START -->
-<div align="center"><i>Adicione GIFs em <code>assets/gifs</code> com o mesmo nome do repositório (ex.: meu-app.gif)</i></div>
 <!-- GIFS:END -->
-<!-- Footer -->
+
+<!-- ════════════════════════════════════════════════════════════════ -->
+<!--                    🌊 ANIMATED FOOTER                          -->
+<!-- ════════════════════════════════════════════════════════════════ -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3498db,50:1abc9c,100:0d1117&height=120&section=footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=shark&color=0:9b59b6,30:3498db,60:1abc9c,100:0d1117&height=150&section=footer&text=Obrigado%20pela%20visita!%20⭐&fontSize=24&fontColor=ffffff&animation=twinkling&fontAlignY=70" width="100%"/>
 </p>
