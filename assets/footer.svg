@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 160" width="1200" height="160" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Código que sobrevive ao tempo.">
+  <defs>
+    <linearGradient id="fbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="50%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#050b1f"/>
+    </linearGradient>
+    <linearGradient id="fline" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#60a5fa" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#93c5fd" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#60a5fa" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="160" fill="url(#fbg)"/>
+
+  <g aria-hidden="true">
+    <path d="M0,0 L1200,0 L1200,28 C1000,8 800,42 600,30 C400,18 200,40 0,22 Z" fill="#1e3a8a" fill-opacity="0.5"/>
+    <path d="M0,0 L1200,0 L1200,18 C950,2 720,32 480,22 C260,14 100,28 0,18 Z" fill="#3b82f6" fill-opacity="0.35"/>
+    <path d="M0,0 L1200,0 L1200,10 C900,0 600,14 300,6 C160,2 60,8 0,6 Z" fill="#60a5fa" fill-opacity="0.25"/>
+  </g>
+
+  <text x="600" y="105" text-anchor="middle" font-family="Inter, 'Segoe UI', system-ui, sans-serif" font-size="22" font-weight="600" letter-spacing="0.5" fill="#ffffff" font-style="italic">"Código que sobrevive ao tempo."</text>
+  <line x1="520" y1="120" x2="680" y2="120" stroke="url(#fline)" stroke-width="1.4"/>
+  <text x="600" y="142" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, Menlo, monospace" font-size="11" letter-spacing="3" fill="#93c5fd" opacity="0.85">EDUARDO ALVES · @EDUARDOSA8006</text>
+</svg>

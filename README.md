@@ -6,8 +6,8 @@
 
 <a href="https://github.com/EduardoSA8006">
   <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:0a1a3a,30:1e3a8a,60:2563eb,100:3b82f6&height=240&section=header&text=Eduardo%20Alves&fontColor=ffffff&fontSize=72&fontAlignY=38&desc=Desenvolvedor%20Fullstack%20%26%20Mobile&descSize=20&descAlignY=62&descAlign=50&animation=fadeIn"
-    alt="banner"
+    src="https://raw.githubusercontent.com/EduardoSA8006/EduardoSA8006/main/assets/banner.svg"
+    alt="Eduardo Alves — Desenvolvedor Fullstack & Mobile"
     width="100%"
   />
 </a>
@@ -376,9 +376,9 @@ TypeScript strict, testes onde importa, docs vivas. O **futuro-eu** sempre agrad
 <div align="center">
 
 <img
-  src="https://capsule-render.vercel.app/api?type=waving&color=0:3b82f6,40:2563eb,70:1e3a8a,100:0a1a3a&height=140&section=footer&text=%22C%C3%B3digo+que+sobrevive+ao+tempo.%22&fontColor=ffffff&fontSize=18&fontAlignY=70&animation=fadeIn"
+  src="https://raw.githubusercontent.com/EduardoSA8006/EduardoSA8006/main/assets/footer.svg"
   width="100%"
-  alt="footer"
+  alt="Código que sobrevive ao tempo. — Eduardo Alves"
 />
 
 </div>
