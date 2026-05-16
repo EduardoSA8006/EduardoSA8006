@@ -18,7 +18,7 @@
 
 <a href="https://github.com/EduardoSA8006">
   <img
-    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=60A5FA&center=true&vCenter=true&width=720&height=46&lines=Interfaces+precisas.+Produtos+memor%C3%A1veis.;Apps+em+Flutter+%E2%80%A2+Backends+em+FastAPI;Do+banco+ao+deploy%2C+ponta+a+ponta.;C%C3%B3digo+que+sobrevive+ao+tempo."
+    src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&duration=3200&pause=900&color=60A5FA&center=true&vCenter=true&width=720&height=46&lines=Interfaces+precisas.+Produtos+memor%C3%A1veis.;Apps+em+Flutter+%E2%80%A2+Backends+em+FastAPI;Do+banco+ao+deploy%2C+ponta+a+ponta.;C%C3%B3digo+que+sobrevive+ao+tempo."
     alt="tagline"
   />
 </a>
@@ -54,36 +54,57 @@
 <br />
 
 <!-- ╔══════════════════════════════════════════════════════════════════════╗ -->
-<!-- ║                            ABOUT EM TERMINAL                          ║ -->
+<!-- ║                                SOBRE                                  ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
 
-<h2>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Waving%20Hand.png" />
-    <img alt="wave" src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Waving%20Hand.png" width="26" />
-  </picture>
-  &nbsp;<code>~/whoami</code>
-</h2>
+## 👋 &nbsp; Olá, eu sou o Eduardo
 
-```ts
-const eduardo = {
-  name:        "Eduardo de Souza Alves",
-  age:         "iniciei aos 12 anos com mods de Minecraft",
-  role:        "Desenvolvedor Fullstack & Mobile",
-  location:    "Ariquemes — Rondônia, Brasil 🇧🇷",
-  education:   "Técnico em Informática · IFRO Campus Ariquemes (2023 — 2025)",
+Sou o **Eduardo de Souza Alves**, desenvolvedor **Fullstack & Mobile** baseado em **Ariquemes — Rondônia, Brasil**. Construo apps em **Flutter** e backends em **FastAPI** com foco em produto, arquitetura e código que envelhece bem. Aprendi a programar aos **12 anos**, criando mods para Minecraft — hoje resolvo problemas reais com a mesma curiosidade do primeiro dia.
 
-  currentFocus: [
-    "Apps em Flutter com arquitetura feature-first + MVVM",
-    "APIs em FastAPI com JWT, CSRF, Redis e PostgreSQL",
-    "Interfaces web em Next.js com performance e a11y como feature"
-  ],
+<table>
+  <tr>
+    <td valign="top" width="50%">
 
-  values: ["Performance", "Acessibilidade", "Detalhe", "Código que envelhece bem"],
+### 🎯 &nbsp; No que estou focado
 
-  funFact: "Aprendi a programar modificando Minecraft. Hoje modifico o mundo real."
-};
-```
+- **Apps mobile em Flutter** com arquitetura feature-first + MVVM
+- **APIs em FastAPI** com JWT, CSRF, Redis e PostgreSQL
+- **Interfaces web em Next.js** tratando performance e a11y como feature
+
+</td>
+    <td valign="top" width="50%">
+
+### 🎓 &nbsp; Formação
+
+- **Técnico em Informática** — IFRO, Campus Ariquemes *(2023 — 2025)*
+- **Autodidata desde 2018** — modding de Minecraft, jogos e ferramentas
+- **Aprendizado contínuo** — frameworks, linguagens e novas paradigmas
+
+</td>
+  </tr>
+  <tr>
+    <td valign="top">
+
+### 🧭 &nbsp; Como eu trabalho
+
+- Visão **do banco ao frontend**, ponta a ponta
+- Decisões guiadas por **produto e escalabilidade**
+- Resposta em até **24 horas** em dias úteis
+- **Remoto** (Brasil e exterior) · presencial em Rondônia
+
+</td>
+    <td valign="top">
+
+### ✨ &nbsp; Curiosidade
+
+- Comecei a programar **aos 12 anos** criando mods para Minecraft
+- Game dev no tempo livre — Unity e Unreal
+- Linux e automação são minha zona de conforto
+- **+40 projetos** entregues e **5 anos** de prática
+
+</td>
+  </tr>
+</table>
 
 <br />
 
@@ -91,13 +112,13 @@ const eduardo = {
 <!-- ║                              TECH STACK                               ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
 
-<h2>🛠️ &nbsp;<code>~/stack</code></h2>
+## 🛠️ &nbsp; Tecnologias que uso no dia a dia
 
 <table>
   <tr>
     <td valign="top" width="33%">
 
-<h4 align="center">📱 &nbsp;Mobile</h4>
+<h4 align="center">📱 &nbsp; Mobile</h4>
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=flutter,dart,kotlin,swift,androidstudio" />
@@ -106,7 +127,7 @@ const eduardo = {
 </td>
     <td valign="top" width="33%">
 
-<h4 align="center">🌐 &nbsp;Web</h4>
+<h4 align="center">🌐 &nbsp; Web</h4>
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,vite,nodejs" />
@@ -115,7 +136,7 @@ const eduardo = {
 </td>
     <td valign="top" width="33%">
 
-<h4 align="center">⚙️ &nbsp;Backend</h4>
+<h4 align="center">⚙️ &nbsp; Backend</h4>
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=python,fastapi,postgres,redis,docker,nginx" />
@@ -126,7 +147,7 @@ const eduardo = {
   <tr>
     <td valign="top">
 
-<h4 align="center">🧪 &nbsp;Qualidade</h4>
+<h4 align="center">🧪 &nbsp; Qualidade</h4>
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=vitest,jest,pytest,eslint,prettier" />
@@ -135,7 +156,7 @@ const eduardo = {
 </td>
     <td valign="top">
 
-<h4 align="center">☁️ &nbsp;DevOps</h4>
+<h4 align="center">☁️ &nbsp; DevOps</h4>
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=linux,git,github,githubactions,bash,vercel" />
@@ -144,7 +165,7 @@ const eduardo = {
 </td>
     <td valign="top">
 
-<h4 align="center">🎨 &nbsp;Design</h4>
+<h4 align="center">🎨 &nbsp; Design</h4>
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=figma,ps,ai,blender" />
@@ -160,7 +181,7 @@ const eduardo = {
 <!-- ║                              GITHUB STATS                             ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
 
-<h2>📊 &nbsp;<code>~/stats</code></h2>
+## 📊 &nbsp; Minha atividade no GitHub
 
 <div align="center">
 
@@ -197,7 +218,7 @@ const eduardo = {
 <!-- ║                            ACTIVITY GRAPH                             ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
 
-<h2>📈 &nbsp;<code>~/activity</code></h2>
+## 📈 &nbsp; Histórico de contribuições
 
 <a href="https://github.com/EduardoSA8006">
   <img
@@ -213,7 +234,7 @@ const eduardo = {
 <!-- ║                              TROFÉUS                                  ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
 
-<h2>🏆 &nbsp;<code>~/trophies</code></h2>
+## 🏆 &nbsp; Conquistas
 
 <div align="center">
 
@@ -229,41 +250,41 @@ const eduardo = {
 <br />
 
 <!-- ╔══════════════════════════════════════════════════════════════════════╗ -->
-<!-- ║                              QUOTE / FILOSOFIA                        ║ -->
+<!-- ║                              FILOSOFIA                                ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
 
-<h2>💡 &nbsp;<code>~/philosophy</code></h2>
+## 💡 &nbsp; Princípios que guiam meu trabalho
 
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
 
-> ### ⚡ &nbsp;Performance
-> Código rápido, bundle enxuto, Lighthouse 95+ por padrão.<br/>
-> **Performance é feature**, não detalhe.
+### ⚡ &nbsp; Performance
+
+Código rápido, bundle enxuto, Lighthouse 95+ por padrão. **Performance é feature**, não detalhe.
 
 </td>
 <td width="50%" valign="top">
 
-> ### ♿ &nbsp;Acessibilidade
-> WCAG AA no mínimo. Produto que exclui usuários<br/>
-> é produto **quebrado**.
+### ♿ &nbsp; Acessibilidade
+
+WCAG AA no mínimo. Produto que exclui usuários é produto **quebrado**.
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-> ### ✨ &nbsp;Detalhe
-> Animações, microinterações, tipografia.<br/>
-> O detalhe separa **bom** de **memorável**.
+### ✨ &nbsp; Detalhe
+
+Animações, microinterações, tipografia. O detalhe separa **bom** de **memorável**.
 
 </td>
 <td valign="top">
 
-> ### 🧱 &nbsp;Código limpo
-> TypeScript strict, testes onde importa, docs vivas.<br/>
-> O **futuro-eu** sempre agradece.
+### 🧱 &nbsp; Código limpo
+
+TypeScript strict, testes onde importa, docs vivas. O **futuro-eu** sempre agradece.
 
 </td>
 </tr>
@@ -272,10 +293,36 @@ const eduardo = {
 <br />
 
 <!-- ╔══════════════════════════════════════════════════════════════════════╗ -->
-<!-- ║                              CONTATO / CTA                            ║ -╝ -->
+<!-- ║                          SNAKE — COMMITS REAIS                        ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
 
-<h2>📡 &nbsp;<code>~/contact</code></h2>
+## 🐍 &nbsp; Cobrinha dos commits
+
+<sub>Gerada a partir do meu grafo de contribuições — atualiza automaticamente a cada 12h.</sub>
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/EduardoSA8006/EduardoSA8006/output/snake-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/EduardoSA8006/EduardoSA8006/output/snake.svg"
+  />
+  <img
+    alt="snake comendo meus commits"
+    src="https://raw.githubusercontent.com/EduardoSA8006/EduardoSA8006/output/snake.svg"
+    width="100%"
+  />
+</picture>
+
+<br />
+
+<!-- ╔══════════════════════════════════════════════════════════════════════╗ -->
+<!-- ║                              CONTATO / CTA                            ║ -->
+<!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
+
+## 📡 &nbsp; Vamos conversar
 
 <div align="center">
 
@@ -319,32 +366,6 @@ const eduardo = {
 </sub>
 
 </div>
-
-<br />
-
-<!-- ╔══════════════════════════════════════════════════════════════════════╗ -->
-<!-- ║                          SNAKE — COMMITS REAIS                        ║ -->
-<!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
-
-<h2>🐍 &nbsp;<code>~/snake</code></h2>
-
-<sub>Gerada a partir do meu grafo de contribuições — atualiza automaticamente a cada 12h.</sub>
-
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/EduardoSA8006/EduardoSA8006/output/snake-dark.svg"
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/EduardoSA8006/EduardoSA8006/output/snake.svg"
-  />
-  <img
-    alt="snake comendo meus commits"
-    src="https://raw.githubusercontent.com/EduardoSA8006/EduardoSA8006/output/snake.svg"
-    width="100%"
-  />
-</picture>
 
 <br />
 
