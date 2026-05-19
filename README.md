@@ -114,6 +114,8 @@ Sou o **Eduardo de Souza Alves**, desenvolvedor **Fullstack & Mobile** baseado e
 
 ## <img src="https://api.iconify.design/lucide:wrench.svg?color=%2360a5fa&width=28" align="center" height="28" /> &nbsp; Tecnologias que uso no dia a dia
 
+<div align="center">
+
 <table>
   <tr>
     <td valign="middle" width="150" nowrap>
@@ -190,6 +192,8 @@ Sou o **Eduardo de Souza Alves**, desenvolvedor **Fullstack & Mobile** baseado e
     </td>
   </tr>
 </table>
+
+</div>
 
 <br />
 
