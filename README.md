@@ -117,16 +117,15 @@ Sou o **Eduardo de Souza Alves**, desenvolvedor **Fullstack & Mobile** baseado e
 <table>
   <tr>
     <td valign="middle" width="150" nowrap>
-      <img src="https://raw.githubusercontent.com/EduardoSA8006/EduardoSA8006/main/assets/spacer.svg" width="150" height="0" alt="" />
       <img src="https://api.iconify.design/lucide:smartphone.svg?color=%2360a5fa&width=18" align="center" height="18" />
       &nbsp; <b>Mobile</b>
     </td>
     <td valign="middle" align="center">
-      <img src="https://raw.githubusercontent.com/EduardoSA8006/EduardoSA8006/main/assets/spacer.svg" width="950" height="0" alt="" /><br/>
       <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
       <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" />
       <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
       <img src="https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white" />
+      <img src="https://raw.githubusercontent.com/EduardoSA8006/EduardoSA8006/main/assets/spacer.svg" width="950" height="0" alt="" />
     </td>
   </tr>
   <tr>
