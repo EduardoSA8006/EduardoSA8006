@@ -298,9 +298,9 @@ TypeScript strict, testes onde importa, docs vivas. O **futuro-eu** sempre agrad
 </td>
 <td align="center" width="180">
 <a href="https://github.com/EduardoSA8006">
-  <img src="https://api.iconify.design/simple-icons:github.svg?color=%2360a5fa&width=40" width="40" alt="github" /><br/>
-  <sub><b>GitHub</b></sub><br/>
-  <sub>@EduardoSA8006</sub>
+  <img src="https://api.iconify.design/lucide:globe.svg?color=%2360a5fa&width=40" width="40" alt="portfólio" /><br/>
+  <sub><b>Portfólio</b></sub><br/>
+  <sub>conheça meus projetos</sub>
 </a>
 </td>
 </tr>
