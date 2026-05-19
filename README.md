@@ -208,7 +208,7 @@ Sou o **Eduardo de Souza Alves**, desenvolvedor **Fullstack & Mobile** baseado e
 <a href="https://github.com/EduardoSA8006">
   <img
     height="180"
-    src="https://github-readme-stats.hackclub.dev/api?username=EduardoSA8006&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&title_color=60A5FA&icon_color=3B82F6&text_color=cbd5e1&bg_color=0a1224"
+    src="https://github-readme-stats-anuraghazra1.vercel.app/api?username=EduardoSA8006&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&title_color=60A5FA&icon_color=3B82F6&text_color=cbd5e1&bg_color=0a1224"
     alt="github stats"
   />
 </a>
@@ -225,7 +225,7 @@ Sou o **Eduardo de Souza Alves**, desenvolvedor **Fullstack & Mobile** baseado e
 <a href="https://github.com/EduardoSA8006">
   <img
     height="180"
-    src="https://github-readme-stats.hackclub.dev/api/top-langs/?username=EduardoSA8006&layout=compact&hide_border=true&langs_count=10&title_color=60A5FA&text_color=cbd5e1&bg_color=0a1224"
+    src="https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs/?username=EduardoSA8006&layout=compact&hide_border=true&langs_count=10&title_color=60A5FA&text_color=cbd5e1&bg_color=0a1224"
     alt="top languages"
   />
 </a>
