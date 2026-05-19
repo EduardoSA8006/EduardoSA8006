@@ -23,7 +23,7 @@
   />
 </a>
 
-<br />
+<br /><br /><br />
 
 <!-- ╔══════════════════════════════════════════════════════════════════════╗ -->
 <!-- ║                              SOCIAL BAR                               ║ -->
@@ -51,13 +51,15 @@
 
 </div>
 
-<br />
+<br /><br /><br />
 
 <!-- ╔══════════════════════════════════════════════════════════════════════╗ -->
 <!-- ║                                SOBRE                                  ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
 
-## <img src="https://api.iconify.design/lucide:hand.svg?color=%2360a5fa&width=28" align="center" height="28" /> &nbsp; Olá, eu sou o Eduardo
+<h2 align="center">Olá, eu sou o Eduardo</h2>
+
+<br />
 
 <div align="center">
 
@@ -73,13 +75,15 @@ Sempre gostei de tecnologia desde pequeno. Meu primeiro contato com programaçã
 
 </div>
 
-<br />
+<br /><br /><br />
 
 <!-- ╔══════════════════════════════════════════════════════════════════════╗ -->
 <!-- ║                              TECH STACK                               ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
 
-## <img src="https://api.iconify.design/lucide:wrench.svg?color=%2360a5fa&width=28" align="center" height="28" /> &nbsp; Tecnologias que uso no dia a dia
+<h2 align="center">Tecnologias que uso no dia a dia</h2>
+
+<br />
 
 <div align="center">
 
@@ -162,13 +166,15 @@ Sempre gostei de tecnologia desde pequeno. Meu primeiro contato com programaçã
 
 </div>
 
-<br />
+<br /><br /><br />
 
 <!-- ╔══════════════════════════════════════════════════════════════════════╗ -->
 <!-- ║                              GITHUB STATS                             ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
 
-## <img src="https://api.iconify.design/lucide:bar-chart-3.svg?color=%2360a5fa&width=28" align="center" height="28" /> &nbsp; Minha atividade no GitHub
+<h2 align="center">Minha atividade no GitHub</h2>
+
+<br />
 
 <div align="center">
 
@@ -177,13 +183,15 @@ Sempre gostei de tecnologia desde pequeno. Meu primeiro contato com programaçã
 
 </div>
 
-<br />
+<br /><br /><br />
 
 <!-- ╔══════════════════════════════════════════════════════════════════════╗ -->
 <!-- ║                            ACTIVITY GRAPH                             ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
 
-## <img src="https://api.iconify.design/lucide:trending-up.svg?color=%2360a5fa&width=28" align="center" height="28" /> &nbsp; Histórico de contribuições
+<h2 align="center">Histórico de contribuições</h2>
+
+<br />
 
 <a href="https://github.com/EduardoSA8006">
   <img
@@ -193,13 +201,15 @@ Sempre gostei de tecnologia desde pequeno. Meu primeiro contato com programaçã
   />
 </a>
 
-<br />
+<br /><br /><br />
 
 <!-- ╔══════════════════════════════════════════════════════════════════════╗ -->
 <!-- ║                              TROFÉUS                                  ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
 
-## <img src="https://api.iconify.design/lucide:trophy.svg?color=%2360a5fa&width=28" align="center" height="28" /> &nbsp; Conquistas
+<h2 align="center">Conquistas</h2>
+
+<br />
 
 <div align="center">
 
@@ -212,13 +222,15 @@ Sempre gostei de tecnologia desde pequeno. Meu primeiro contato com programaçã
 
 </div>
 
-<br />
+<br /><br /><br />
 
 <!-- ╔══════════════════════════════════════════════════════════════════════╗ -->
 <!-- ║                              FILOSOFIA                                ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
 
-## <img src="https://api.iconify.design/lucide:lightbulb.svg?color=%2360a5fa&width=28" align="center" height="28" /> &nbsp; Princípios que guiam meu trabalho
+<h2 align="center">Princípios que guiam meu trabalho</h2>
+
+<br />
 
 <table width="100%">
 <tr>
@@ -255,13 +267,15 @@ TypeScript strict, testes onde importa, docs vivas. O **futuro-eu** sempre agrad
 </tr>
 </table>
 
-<br />
+<br /><br /><br />
 
 <!-- ╔══════════════════════════════════════════════════════════════════════╗ -->
 <!-- ║                          SNAKE — COMMITS REAIS                        ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
 
-## <img src="https://api.iconify.design/mdi:snake.svg?color=%2360a5fa&width=28" align="center" height="28" /> &nbsp; Cobrinha dos commits
+<h2 align="center">Cobrinha dos commits</h2>
+
+<br />
 
 <sub>Gerada a partir do meu grafo de contribuições — atualiza automaticamente a cada 12h.</sub>
 
@@ -281,13 +295,15 @@ TypeScript strict, testes onde importa, docs vivas. O **futuro-eu** sempre agrad
   />
 </picture>
 
-<br />
+<br /><br /><br />
 
 <!-- ╔══════════════════════════════════════════════════════════════════════╗ -->
 <!-- ║                              CONTATO / CTA                            ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
 
-## <img src="https://api.iconify.design/lucide:radio-tower.svg?color=%2360a5fa&width=28" align="center" height="28" /> &nbsp; Vamos conversar
+<h2 align="center">Vamos conversar</h2>
+
+<br />
 
 <div align="center">
 
@@ -324,7 +340,7 @@ TypeScript strict, testes onde importa, docs vivas. O **futuro-eu** sempre agrad
 </tr>
 </table>
 
-<br />
+<br /><br /><br />
 
 <sub>
   Quer construir algo juntos? Os projetos vivem no portfólio — aqui mora a história por trás deles.
@@ -332,7 +348,7 @@ TypeScript strict, testes onde importa, docs vivas. O **futuro-eu** sempre agrad
 
 </div>
 
-<br />
+<br /><br /><br />
 
 <!-- ╔══════════════════════════════════════════════════════════════════════╗ -->
 <!-- ║                                FOOTER                                 ║ -->
