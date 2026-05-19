@@ -114,7 +114,10 @@ Sou o **Eduardo de Souza Alves**, desenvolvedor **Fullstack & Mobile** baseado e
 
 ## <img src="https://api.iconify.design/lucide:wrench.svg?color=%2360a5fa&width=28" align="center" height="28" /> &nbsp; Tecnologias que uso no dia a dia
 
-<table width="100%">
+<table>
+  <tr aria-hidden="true">
+    <td colspan="2"><img src="https://raw.githubusercontent.com/EduardoSA8006/EduardoSA8006/main/assets/spacer.svg" width="1100" height="1" alt="" /></td>
+  </tr>
   <tr>
     <td valign="middle" width="150" nowrap>
       <img src="https://api.iconify.design/lucide:smartphone.svg?color=%2360a5fa&width=18" align="center" height="18" />
