@@ -115,19 +115,18 @@ Sou o **Eduardo de Souza Alves**, desenvolvedor **Fullstack & Mobile** baseado e
 ## <img src="https://api.iconify.design/lucide:wrench.svg?color=%2360a5fa&width=28" align="center" height="28" /> &nbsp; Tecnologias que uso no dia a dia
 
 <table>
-  <tr aria-hidden="true">
-    <td colspan="2"><img src="https://raw.githubusercontent.com/EduardoSA8006/EduardoSA8006/main/assets/spacer.svg" width="1100" height="1" alt="" /></td>
-  </tr>
   <tr>
     <td valign="middle" width="150" nowrap>
+      <img src="https://raw.githubusercontent.com/EduardoSA8006/EduardoSA8006/main/assets/spacer.svg" width="150" height="0" alt="" />
       <img src="https://api.iconify.design/lucide:smartphone.svg?color=%2360a5fa&width=18" align="center" height="18" />
       &nbsp; <b>Mobile</b>
     </td>
-    <td valign="middle">
-      <img src="https://img.shields.io/badge/Flutter-1e3a8a?style=flat-square&logo=flutter&logoColor=60a5fa" />
-      <img src="https://img.shields.io/badge/Dart-1e3a8a?style=flat-square&logo=dart&logoColor=60a5fa" />
-      <img src="https://img.shields.io/badge/Kotlin-1e3a8a?style=flat-square&logo=kotlin&logoColor=60a5fa" />
-      <img src="https://img.shields.io/badge/Swift-1e3a8a?style=flat-square&logo=swift&logoColor=60a5fa" />
+    <td valign="middle" align="center">
+      <img src="https://raw.githubusercontent.com/EduardoSA8006/EduardoSA8006/main/assets/spacer.svg" width="950" height="0" alt="" /><br/>
+      <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
+      <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" />
+      <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
+      <img src="https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white" />
     </td>
   </tr>
   <tr>
@@ -135,12 +134,12 @@ Sou o **Eduardo de Souza Alves**, desenvolvedor **Fullstack & Mobile** baseado e
       <img src="https://api.iconify.design/lucide:globe.svg?color=%2360a5fa&width=18" align="center" height="18" />
       &nbsp; <b>Web</b>
     </td>
-    <td valign="middle">
-      <img src="https://img.shields.io/badge/TypeScript-1e3a8a?style=flat-square&logo=typescript&logoColor=60a5fa" />
-      <img src="https://img.shields.io/badge/React-1e3a8a?style=flat-square&logo=react&logoColor=60a5fa" />
-      <img src="https://img.shields.io/badge/Next.js-1e3a8a?style=flat-square&logo=nextdotjs&logoColor=60a5fa" />
-      <img src="https://img.shields.io/badge/Tailwind-1e3a8a?style=flat-square&logo=tailwindcss&logoColor=60a5fa" />
-      <img src="https://img.shields.io/badge/Vite-1e3a8a?style=flat-square&logo=vite&logoColor=60a5fa" />
+    <td valign="middle" align="center">
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+      <img src="https://img.shields.io/badge/React-149ECA?style=for-the-badge&logo=react&logoColor=white" />
+      <img src="https://img.shields.io/badge/Next.js-111827?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+      <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+      <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
     </td>
   </tr>
   <tr>
@@ -148,12 +147,12 @@ Sou o **Eduardo de Souza Alves**, desenvolvedor **Fullstack & Mobile** baseado e
       <img src="https://api.iconify.design/lucide:server.svg?color=%2360a5fa&width=18" align="center" height="18" />
       &nbsp; <b>Backend</b>
     </td>
-    <td valign="middle">
-      <img src="https://img.shields.io/badge/Python-1e3a8a?style=flat-square&logo=python&logoColor=60a5fa" />
-      <img src="https://img.shields.io/badge/FastAPI-1e3a8a?style=flat-square&logo=fastapi&logoColor=60a5fa" />
-      <img src="https://img.shields.io/badge/PostgreSQL-1e3a8a?style=flat-square&logo=postgresql&logoColor=60a5fa" />
-      <img src="https://img.shields.io/badge/Redis-1e3a8a?style=flat-square&logo=redis&logoColor=60a5fa" />
-      <img src="https://img.shields.io/badge/Node.js-1e3a8a?style=flat-square&logo=nodedotjs&logoColor=60a5fa" />
+    <td valign="middle" align="center">
+      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+      <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+      <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
+      <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
     </td>
   </tr>
   <tr>
@@ -161,11 +160,11 @@ Sou o **Eduardo de Souza Alves**, desenvolvedor **Fullstack & Mobile** baseado e
       <img src="https://api.iconify.design/lucide:flask-conical.svg?color=%2360a5fa&width=18" align="center" height="18" />
       &nbsp; <b>Qualidade</b>
     </td>
-    <td valign="middle">
-      <img src="https://img.shields.io/badge/Vitest-1e3a8a?style=flat-square&logo=vitest&logoColor=60a5fa" />
-      <img src="https://img.shields.io/badge/Pytest-1e3a8a?style=flat-square&logo=pytest&logoColor=60a5fa" />
-      <img src="https://img.shields.io/badge/ESLint-1e3a8a?style=flat-square&logo=eslint&logoColor=60a5fa" />
-      <img src="https://img.shields.io/badge/Prettier-1e3a8a?style=flat-square&logo=prettier&logoColor=60a5fa" />
+    <td valign="middle" align="center">
+      <img src="https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white" />
+      <img src="https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" />
+      <img src="https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white" />
+      <img src="https://img.shields.io/badge/Prettier-1A2B34?style=for-the-badge&logo=prettier&logoColor=F7B93E" />
     </td>
   </tr>
   <tr>
@@ -173,12 +172,12 @@ Sou o **Eduardo de Souza Alves**, desenvolvedor **Fullstack & Mobile** baseado e
       <img src="https://api.iconify.design/lucide:cloud.svg?color=%2360a5fa&width=18" align="center" height="18" />
       &nbsp; <b>DevOps</b>
     </td>
-    <td valign="middle">
-      <img src="https://img.shields.io/badge/Docker-1e3a8a?style=flat-square&logo=docker&logoColor=60a5fa" />
-      <img src="https://img.shields.io/badge/Linux-1e3a8a?style=flat-square&logo=linux&logoColor=60a5fa" />
-      <img src="https://img.shields.io/badge/Git-1e3a8a?style=flat-square&logo=git&logoColor=60a5fa" />
-      <img src="https://img.shields.io/badge/GitHub%20Actions-1e3a8a?style=flat-square&logo=githubactions&logoColor=60a5fa" />
-      <img src="https://img.shields.io/badge/Vercel-1e3a8a?style=flat-square&logo=vercel&logoColor=60a5fa" />
+    <td valign="middle" align="center">
+      <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+      <img src="https://img.shields.io/badge/Linux-1A2B34?style=for-the-badge&logo=linux&logoColor=FCC624" />
+      <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+      <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
+      <img src="https://img.shields.io/badge/Vercel-111827?style=for-the-badge&logo=vercel&logoColor=white" />
     </td>
   </tr>
   <tr>
@@ -186,10 +185,10 @@ Sou o **Eduardo de Souza Alves**, desenvolvedor **Fullstack & Mobile** baseado e
       <img src="https://api.iconify.design/lucide:palette.svg?color=%2360a5fa&width=18" align="center" height="18" />
       &nbsp; <b>Design</b>
     </td>
-    <td valign="middle">
-      <img src="https://img.shields.io/badge/Figma-1e3a8a?style=flat-square&logo=figma&logoColor=60a5fa" />
-      <img src="https://img.shields.io/badge/Photoshop-1e3a8a?style=flat-square&logo=adobephotoshop&logoColor=60a5fa" />
-      <img src="https://img.shields.io/badge/Blender-1e3a8a?style=flat-square&logo=blender&logoColor=60a5fa" />
+    <td valign="middle" align="center">
+      <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
+      <img src="https://img.shields.io/badge/Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=white" />
+      <img src="https://img.shields.io/badge/Blender-F5792A?style=for-the-badge&logo=blender&logoColor=white" />
     </td>
   </tr>
 </table>
