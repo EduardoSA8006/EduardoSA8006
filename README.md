@@ -125,7 +125,6 @@ Sou o **Eduardo de Souza Alves**, desenvolvedor **Fullstack & Mobile** baseado e
       <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" />
       <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" />
       <img src="https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white" />
-      <img src="https://raw.githubusercontent.com/EduardoSA8006/EduardoSA8006/main/assets/spacer.svg" width="950" height="0" alt="" />
     </td>
   </tr>
   <tr>
