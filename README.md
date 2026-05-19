@@ -191,51 +191,6 @@ Sempre gostei de tecnologia desde pequeno. Meu primeiro contato com programaçã
 <br /><br /><br />
 
 <!-- ╔══════════════════════════════════════════════════════════════════════╗ -->
-<!-- ║                              FILOSOFIA                                ║ -->
-<!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
-
-<h2 align="center">Princípios que guiam meu trabalho</h2>
-
-<br />
-
-<table width="100%">
-<tr>
-<td width="50%" valign="top" align="justify">
-
-### <img src="https://api.iconify.design/lucide:zap.svg?color=%2360a5fa&width=22" align="center" height="22" /> &nbsp; Performance
-
-Código rápido e bundle enxuto. **Performance é feature**, não detalhe.
-
-</td>
-<td width="50%" valign="top" align="justify">
-
-### <img src="https://api.iconify.design/lucide:accessibility.svg?color=%2360a5fa&width=22" align="center" height="22" /> &nbsp; Acessibilidade
-
-WCAG AA no mínimo. Produto que exclui usuários é produto **quebrado**.
-
-</td>
-</tr>
-<tr>
-<td valign="top" align="justify">
-
-### <img src="https://api.iconify.design/lucide:gem.svg?color=%2360a5fa&width=22" align="center" height="22" /> &nbsp; Detalhe
-
-Animações, microinterações, tipografia. O detalhe separa **bom** de **memorável**.
-
-</td>
-<td valign="top" align="justify">
-
-### <img src="https://api.iconify.design/lucide:code-2.svg?color=%2360a5fa&width=22" align="center" height="22" /> &nbsp; Código limpo
-
-TypeScript strict, testes onde importa, docs vivas. O **futuro-eu** sempre agradece.
-
-</td>
-</tr>
-</table>
-
-<br /><br /><br />
-
-<!-- ╔══════════════════════════════════════════════════════════════════════╗ -->
 <!-- ║                          SNAKE — COMMITS REAIS                        ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
 
