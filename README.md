@@ -12,25 +12,15 @@
   />
 </a>
 
-<!-- ╔══════════════════════════════════════════════════════════════════════╗ -->
-<!-- ║                         FRASE COM DIGITAÇÃO                           ║ -->
-<!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
-
-<a href="https://github.com/EduardoSA8006">
-  <img
-    src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&duration=3200&pause=900&color=60A5FA&center=true&vCenter=true&width=820&height=46&lines=Interfaces+precisas.+Produtos+memor%C3%A1veis.;Apps+em+Flutter+%E2%80%A2+Backends+em+FastAPI;Do+banco+ao+deploy%2C+ponta+a+ponta.;C%C3%B3digo+que+sobrevive+ao+tempo."
-    alt="tagline"
-  />
-</a>
-
-<br /><br /><br />
+<br />
+<br />
 
 <!-- ╔══════════════════════════════════════════════════════════════════════╗ -->
 <!-- ║                              SOCIAL BAR                               ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
 
 <a href="https://www.linkedin.com/in/eduardo8006">
-  <img src="https://img.shields.io/badge/LinkedIn-1e3a8a?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  <img src="https://img.shields.io/badge/LinkedIn-1e3a8a?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xOSAwaC0xNGMtMi43NjEgMC01IDIuMjM5LTUgNXYxNGMwIDIuNzYxIDIuMjM5IDUgNSA1aDE0YzIuNzYyIDAgNS0yLjIzOSA1LTV2LTE0YzAtMi43NjEtMi4yMzgtNS01LTV6bS0xMSAxOWgtM3YtMTFoM3YxMXptLTEuNS0xMi4yNjhjLS45NjYgMC0xLjc1LS43OS0xLjc1LTEuNzY0cy43ODQtMS43NjQgMS43NS0xLjc2NCAxLjc1Ljc5IDEuNzUgMS43NjQtLjc4MyAxLjc2NC0xLjc1IDEuNzY0em0xMy41IDEyLjI2OGgtM3YtNS42MDRjMC0zLjM2OC00LTMuMTEzLTQgMHY1LjYwNGgtM3YtMTFoM3YxLjc2NWMxLjM5Ni0yLjU4NiA3LTIuNzc3IDcgMi40NzZ2Ni43NTl6Ii8+PC9zdmc+" alt="LinkedIn" />
 </a>
 <a href="mailto:eduardoalves8006@gmail.com">
   <img src="https://img.shields.io/badge/E--mail-2563eb?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
@@ -39,27 +29,16 @@
   <img src="https://img.shields.io/badge/Instagram-3b82f6?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
 </a>
 <a href="https://github.com/EduardoSA8006">
-  <img src="https://img.shields.io/badge/Portf%C3%B3lio-60A5FA?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfólio" />
+  <img src="https://img.shields.io/badge/Portf%C3%B3lio-60A5FA?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyLjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iMTAiLz48cGF0aCBkPSJNMiAxMmgyMCIvPjxwYXRoIGQ9Ik0xMiAyYTE1LjMgMTUuMyAwIDAgMSA0IDEwIDE1LjMgMTUuMyAwIDAgMS00IDEwIDE1LjMgMTUuMyAwIDAgMS00LTEwIDE1LjMgMTUuMyAwIDAgMSA0LTEweiIvPjwvc3ZnPg==" alt="Portfólio" />
 </a>
 
 <br /><br />
-
-<img src="https://komarev.com/ghpvc/?username=EduardoSA8006&label=visitantes%20do%20perfil&color=2563eb&style=flat-square" alt="profile views" />
-<img src="https://img.shields.io/github/followers/EduardoSA8006?label=followers&style=flat-square&color=1e3a8a&labelColor=0a1a3a" alt="followers" />
-<img src="https://img.shields.io/badge/Ariquemes-RO%20%E2%80%A2%20Brasil-3b82f6?style=flat-square&logo=googlemaps&logoColor=white" alt="location" />
-<img src="https://img.shields.io/badge/status-dispon%C3%ADvel%20para%20novos%20projetos-22c55e?style=flat-square" alt="status" />
-
-</div>
-
-<br /><br /><br />
 
 <!-- ╔══════════════════════════════════════════════════════════════════════╗ -->
 <!-- ║                                SOBRE                                  ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
 
 <h2 align="center">Olá, eu sou o Eduardo</h2>
-
-<br />
 
 <div align="center">
 
@@ -82,8 +61,6 @@ Sempre gostei de tecnologia desde pequeno. Meu primeiro contato com programaçã
 <!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
 
 <h2 align="center">Tecnologias que uso no dia a dia</h2>
-
-<br />
 
 <div align="center">
 
@@ -148,20 +125,9 @@ Sempre gostei de tecnologia desde pequeno. Meu primeiro contato com programaçã
       <img src="https://img.shields.io/badge/Linux-1A2B34?style=flat-square&logo=linux&logoColor=FCC624" />
       <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
       <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
-      <img src="https://img.shields.io/badge/Vercel-111827?style=flat-square&logo=vercel&logoColor=white" />
     </td>
   </tr>
-  <tr>
-    <td valign="middle" width="150" nowrap>
-      <img src="https://api.iconify.design/lucide:palette.svg?color=%2360a5fa&width=18" align="center" height="18" />
-      &nbsp; <b>Design</b>
-    </td>
-    <td valign="middle" align="left">
-      <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" />
-      <img src="https://img.shields.io/badge/Photoshop-31A8FF?style=flat-square&logo=adobephotoshop&logoColor=white" />
-      <img src="https://img.shields.io/badge/Blender-F5792A?style=flat-square&logo=blender&logoColor=white" />
-    </td>
-  </tr>
+  
 </table>
 
 </div>
@@ -238,7 +204,7 @@ Sempre gostei de tecnologia desde pequeno. Meu primeiro contato com programaçã
 
 ### <img src="https://api.iconify.design/lucide:zap.svg?color=%2360a5fa&width=22" align="center" height="22" /> &nbsp; Performance
 
-Código rápido, bundle enxuto, Lighthouse 95+ por padrão. **Performance é feature**, não detalhe.
+Código rápido e bundle enxuto. **Performance é feature**, não detalhe.
 
 </td>
 <td width="50%" valign="top" align="justify">
@@ -277,7 +243,7 @@ TypeScript strict, testes onde importa, docs vivas. O **futuro-eu** sempre agrad
 
 <br />
 
-<sub>Gerada a partir do meu grafo de contribuições — atualiza automaticamente a cada 12h.</sub>
+<sub>Gerada a partir do meu grafo de contribuições.</sub>
 
 <picture>
   <source
@@ -340,7 +306,9 @@ TypeScript strict, testes onde importa, docs vivas. O **futuro-eu** sempre agrad
 </tr>
 </table>
 
-<br /><br /><br />
+</div>
+
+<br />
 
 <sub>
   Quer construir algo juntos? Os projetos vivem no portfólio — aqui mora a história por trás deles.
@@ -355,6 +323,13 @@ TypeScript strict, testes onde importa, docs vivas. O **futuro-eu** sempre agrad
 <!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
 
 <div align="center">
+<img src="https://komarev.com/ghpvc/?username=EduardoSA8006&label=visitantes%20do%20perfil&color=2563eb&style=flat-square" alt="profile views" />
+<img src="https://img.shields.io/github/followers/EduardoSA8006?label=followers&style=flat-square&color=1e3a8a&labelColor=0a1a3a" alt="followers" />
+<img src="https://img.shields.io/badge/Ariquemes-RO%20%E2%80%A2%20Brasil-3b82f6?style=flat-square&logo=googlemaps&logoColor=white" alt="location" />
+<img src="https://img.shields.io/badge/status-dispon%C3%ADvel%20para%20novos%20projetos-22c55e?style=flat-square" alt="status" />
+
+<br />
+<br />
 
 <img
   src="https://raw.githubusercontent.com/EduardoSA8006/EduardoSA8006/main/assets/footer.svg"
