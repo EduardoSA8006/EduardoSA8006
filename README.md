@@ -116,7 +116,7 @@ Sou o **Eduardo de Souza Alves**, desenvolvedor **Fullstack & Mobile** baseado e
 
 <table>
   <tr>
-    <td valign="middle" width="120">
+    <td valign="middle" width="150" nowrap>
       <img src="https://api.iconify.design/lucide:smartphone.svg?color=%2360a5fa&width=18" align="center" height="18" />
       &nbsp; <b>Mobile</b>
     </td>
@@ -128,7 +128,7 @@ Sou o **Eduardo de Souza Alves**, desenvolvedor **Fullstack & Mobile** baseado e
     </td>
   </tr>
   <tr>
-    <td valign="middle">
+    <td valign="middle" width="150" nowrap>
       <img src="https://api.iconify.design/lucide:globe.svg?color=%2360a5fa&width=18" align="center" height="18" />
       &nbsp; <b>Web</b>
     </td>
@@ -141,7 +141,7 @@ Sou o **Eduardo de Souza Alves**, desenvolvedor **Fullstack & Mobile** baseado e
     </td>
   </tr>
   <tr>
-    <td valign="middle">
+    <td valign="middle" width="150" nowrap>
       <img src="https://api.iconify.design/lucide:server.svg?color=%2360a5fa&width=18" align="center" height="18" />
       &nbsp; <b>Backend</b>
     </td>
@@ -154,7 +154,7 @@ Sou o **Eduardo de Souza Alves**, desenvolvedor **Fullstack & Mobile** baseado e
     </td>
   </tr>
   <tr>
-    <td valign="middle">
+    <td valign="middle" width="150" nowrap>
       <img src="https://api.iconify.design/lucide:flask-conical.svg?color=%2360a5fa&width=18" align="center" height="18" />
       &nbsp; <b>Qualidade</b>
     </td>
@@ -166,7 +166,7 @@ Sou o **Eduardo de Souza Alves**, desenvolvedor **Fullstack & Mobile** baseado e
     </td>
   </tr>
   <tr>
-    <td valign="middle">
+    <td valign="middle" width="150" nowrap>
       <img src="https://api.iconify.design/lucide:cloud.svg?color=%2360a5fa&width=18" align="center" height="18" />
       &nbsp; <b>DevOps</b>
     </td>
@@ -179,7 +179,7 @@ Sou o **Eduardo de Souza Alves**, desenvolvedor **Fullstack & Mobile** baseado e
     </td>
   </tr>
   <tr>
-    <td valign="middle">
+    <td valign="middle" width="150" nowrap>
       <img src="https://api.iconify.design/lucide:palette.svg?color=%2360a5fa&width=18" align="center" height="18" />
       &nbsp; <b>Design</b>
     </td>
