@@ -116,80 +116,78 @@ Sou o **Eduardo de Souza Alves**, desenvolvedor **Fullstack & Mobile** baseado e
 
 <table>
   <tr>
-    <td valign="top" width="33%">
-
-<h4 align="center">
-  <img src="https://api.iconify.design/lucide:smartphone.svg?color=%2360a5fa&width=20" align="center" height="20" />
-  &nbsp; Mobile
-</h4>
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=flutter,dart,kotlin,swift,androidstudio" />
-</div>
-
-</td>
-    <td valign="top" width="33%">
-
-<h4 align="center">
-  <img src="https://api.iconify.design/lucide:globe.svg?color=%2360a5fa&width=20" align="center" height="20" />
-  &nbsp; Web
-</h4>
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,vite,nodejs" />
-</div>
-
-</td>
-    <td valign="top" width="33%">
-
-<h4 align="center">
-  <img src="https://api.iconify.design/lucide:server.svg?color=%2360a5fa&width=20" align="center" height="20" />
-  &nbsp; Backend
-</h4>
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=python,fastapi,postgres,redis,docker,nginx" />
-</div>
-
-</td>
+    <td valign="middle" width="120">
+      <img src="https://api.iconify.design/lucide:smartphone.svg?color=%2360a5fa&width=18" align="center" height="18" />
+      &nbsp; <b>Mobile</b>
+    </td>
+    <td valign="middle">
+      <img src="https://img.shields.io/badge/Flutter-1e3a8a?style=flat-square&logo=flutter&logoColor=60a5fa" />
+      <img src="https://img.shields.io/badge/Dart-1e3a8a?style=flat-square&logo=dart&logoColor=60a5fa" />
+      <img src="https://img.shields.io/badge/Kotlin-1e3a8a?style=flat-square&logo=kotlin&logoColor=60a5fa" />
+      <img src="https://img.shields.io/badge/Swift-1e3a8a?style=flat-square&logo=swift&logoColor=60a5fa" />
+    </td>
   </tr>
   <tr>
-    <td valign="top">
-
-<h4 align="center">
-  <img src="https://api.iconify.design/lucide:flask-conical.svg?color=%2360a5fa&width=20" align="center" height="20" />
-  &nbsp; Qualidade
-</h4>
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=vitest,jest,pytest,eslint,prettier" />
-</div>
-
-</td>
-    <td valign="top">
-
-<h4 align="center">
-  <img src="https://api.iconify.design/lucide:cloud.svg?color=%2360a5fa&width=20" align="center" height="20" />
-  &nbsp; DevOps
-</h4>
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=linux,git,github,githubactions,bash,vercel" />
-</div>
-
-</td>
-    <td valign="top">
-
-<h4 align="center">
-  <img src="https://api.iconify.design/lucide:palette.svg?color=%2360a5fa&width=20" align="center" height="20" />
-  &nbsp; Design
-</h4>
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=figma,ps,ai,blender" />
-</div>
-
-</td>
+    <td valign="middle">
+      <img src="https://api.iconify.design/lucide:globe.svg?color=%2360a5fa&width=18" align="center" height="18" />
+      &nbsp; <b>Web</b>
+    </td>
+    <td valign="middle">
+      <img src="https://img.shields.io/badge/TypeScript-1e3a8a?style=flat-square&logo=typescript&logoColor=60a5fa" />
+      <img src="https://img.shields.io/badge/React-1e3a8a?style=flat-square&logo=react&logoColor=60a5fa" />
+      <img src="https://img.shields.io/badge/Next.js-1e3a8a?style=flat-square&logo=nextdotjs&logoColor=60a5fa" />
+      <img src="https://img.shields.io/badge/Tailwind-1e3a8a?style=flat-square&logo=tailwindcss&logoColor=60a5fa" />
+      <img src="https://img.shields.io/badge/Vite-1e3a8a?style=flat-square&logo=vite&logoColor=60a5fa" />
+    </td>
+  </tr>
+  <tr>
+    <td valign="middle">
+      <img src="https://api.iconify.design/lucide:server.svg?color=%2360a5fa&width=18" align="center" height="18" />
+      &nbsp; <b>Backend</b>
+    </td>
+    <td valign="middle">
+      <img src="https://img.shields.io/badge/Python-1e3a8a?style=flat-square&logo=python&logoColor=60a5fa" />
+      <img src="https://img.shields.io/badge/FastAPI-1e3a8a?style=flat-square&logo=fastapi&logoColor=60a5fa" />
+      <img src="https://img.shields.io/badge/PostgreSQL-1e3a8a?style=flat-square&logo=postgresql&logoColor=60a5fa" />
+      <img src="https://img.shields.io/badge/Redis-1e3a8a?style=flat-square&logo=redis&logoColor=60a5fa" />
+      <img src="https://img.shields.io/badge/Node.js-1e3a8a?style=flat-square&logo=nodedotjs&logoColor=60a5fa" />
+    </td>
+  </tr>
+  <tr>
+    <td valign="middle">
+      <img src="https://api.iconify.design/lucide:flask-conical.svg?color=%2360a5fa&width=18" align="center" height="18" />
+      &nbsp; <b>Qualidade</b>
+    </td>
+    <td valign="middle">
+      <img src="https://img.shields.io/badge/Vitest-1e3a8a?style=flat-square&logo=vitest&logoColor=60a5fa" />
+      <img src="https://img.shields.io/badge/Pytest-1e3a8a?style=flat-square&logo=pytest&logoColor=60a5fa" />
+      <img src="https://img.shields.io/badge/ESLint-1e3a8a?style=flat-square&logo=eslint&logoColor=60a5fa" />
+      <img src="https://img.shields.io/badge/Prettier-1e3a8a?style=flat-square&logo=prettier&logoColor=60a5fa" />
+    </td>
+  </tr>
+  <tr>
+    <td valign="middle">
+      <img src="https://api.iconify.design/lucide:cloud.svg?color=%2360a5fa&width=18" align="center" height="18" />
+      &nbsp; <b>DevOps</b>
+    </td>
+    <td valign="middle">
+      <img src="https://img.shields.io/badge/Docker-1e3a8a?style=flat-square&logo=docker&logoColor=60a5fa" />
+      <img src="https://img.shields.io/badge/Linux-1e3a8a?style=flat-square&logo=linux&logoColor=60a5fa" />
+      <img src="https://img.shields.io/badge/Git-1e3a8a?style=flat-square&logo=git&logoColor=60a5fa" />
+      <img src="https://img.shields.io/badge/GitHub%20Actions-1e3a8a?style=flat-square&logo=githubactions&logoColor=60a5fa" />
+      <img src="https://img.shields.io/badge/Vercel-1e3a8a?style=flat-square&logo=vercel&logoColor=60a5fa" />
+    </td>
+  </tr>
+  <tr>
+    <td valign="middle">
+      <img src="https://api.iconify.design/lucide:palette.svg?color=%2360a5fa&width=18" align="center" height="18" />
+      &nbsp; <b>Design</b>
+    </td>
+    <td valign="middle">
+      <img src="https://img.shields.io/badge/Figma-1e3a8a?style=flat-square&logo=figma&logoColor=60a5fa" />
+      <img src="https://img.shields.io/badge/Photoshop-1e3a8a?style=flat-square&logo=adobephotoshop&logoColor=60a5fa" />
+      <img src="https://img.shields.io/badge/Blender-1e3a8a?style=flat-square&logo=blender&logoColor=60a5fa" />
+    </td>
   </tr>
 </table>
 
