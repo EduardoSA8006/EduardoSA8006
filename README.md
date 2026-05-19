@@ -59,52 +59,15 @@
 
 ## <img src="https://api.iconify.design/lucide:hand.svg?color=%2360a5fa&width=28" align="center" height="28" /> &nbsp; Olá, eu sou o Eduardo
 
-Sou o **Eduardo de Souza Alves**, desenvolvedor **Fullstack & Mobile** baseado em **Ariquemes — Rondônia, Brasil**. Construo apps em **Flutter** e backends em **FastAPI** com foco em produto, arquitetura e código que envelhece bem. Aprendi a programar aos **12 anos**, criando mods para Minecraft — hoje resolvo problemas reais com a mesma curiosidade do primeiro dia.
+Sou o **Eduardo de Souza Alves**, desenvolvedor **Fullstack & Mobile** baseado em **Ariquemes — Rondônia**. Construo apps em **Flutter** e backends em **FastAPI** com foco em produto, arquitetura e código que envelhece bem.
 
-<table>
-  <tr>
-    <td valign="top" width="50%">
+Aprendi a programar aos **12 anos**, criando mods para Minecraft. Formado em **Técnico em Informática pelo IFRO** *(2023 — 2025)*, hoje somo **+40 projetos** entregues em 5 anos de prática — atendendo clientes do Brasil e do exterior, sempre remoto.
 
-### <img src="https://api.iconify.design/lucide:target.svg?color=%2360a5fa&width=22" align="center" height="22" /> &nbsp; No que estou focado
+<img src="https://api.iconify.design/lucide:target.svg?color=%2360a5fa&width=18" align="center" height="18" /> &nbsp; **Foco atual** &nbsp;—&nbsp; Flutter + MVVM &nbsp;·&nbsp; FastAPI + JWT/Redis/Postgres &nbsp;·&nbsp; Next.js + a11y
 
-- **Apps mobile em Flutter** com arquitetura feature-first + MVVM
-- **APIs em FastAPI** com JWT, CSRF, Redis e PostgreSQL
-- **Interfaces web em Next.js** tratando performance e a11y como feature
+<img src="https://api.iconify.design/lucide:compass.svg?color=%2360a5fa&width=18" align="center" height="18" /> &nbsp; **Workflow** &nbsp;—&nbsp; Do banco ao frontend &nbsp;·&nbsp; Remoto BR/exterior &nbsp;·&nbsp; Resposta em até 24h
 
-</td>
-    <td valign="top" width="50%">
-
-### <img src="https://api.iconify.design/lucide:graduation-cap.svg?color=%2360a5fa&width=22" align="center" height="22" /> &nbsp; Formação
-
-- **Técnico em Informática** — IFRO, Campus Ariquemes *(2023 — 2025)*
-- **Autodidata desde 2018** — modding de Minecraft, jogos e ferramentas
-- **Aprendizado contínuo** — frameworks, linguagens e novas paradigmas
-
-</td>
-  </tr>
-  <tr>
-    <td valign="top">
-
-### <img src="https://api.iconify.design/lucide:compass.svg?color=%2360a5fa&width=22" align="center" height="22" /> &nbsp; Como eu trabalho
-
-- Visão **do banco ao frontend**, ponta a ponta
-- Decisões guiadas por **produto e escalabilidade**
-- Resposta em até **24 horas** em dias úteis
-- **Remoto** (Brasil e exterior) · presencial em Rondônia
-
-</td>
-    <td valign="top">
-
-### <img src="https://api.iconify.design/lucide:sparkles.svg?color=%2360a5fa&width=22" align="center" height="22" /> &nbsp; Curiosidade
-
-- Comecei a programar **aos 12 anos** criando mods para Minecraft
-- Game dev no tempo livre — Unity e Unreal
-- Linux e automação são minha zona de conforto
-- **+40 projetos** entregues e **5 anos** de prática
-
-</td>
-  </tr>
-</table>
+<img src="https://api.iconify.design/lucide:sparkles.svg?color=%2360a5fa&width=18" align="center" height="18" /> &nbsp; **No tempo livre** &nbsp;—&nbsp; Game dev em Unity/Unreal &nbsp;·&nbsp; Linux & automação &nbsp;·&nbsp; Linguagens novas
 
 <br />
 
