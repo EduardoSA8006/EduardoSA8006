@@ -65,7 +65,7 @@
 
 <table align="center" cellpadding="28" cellspacing="0">
 <tr>
-<td align="center" valign="middle" width="900">
+<td align="justify" valign="middle" width="900">
 
 Sempre gostei de tecnologia desde pequeno. Meu primeiro contato com programação foi aos **12 anos**, desenvolvendo jogos — o que começou como hobby evoluiu para uma trajetória profissional, e hoje encontro conforto no desenvolvimento de **apps mobile** e **sistemas web**. Em 2023, ingressei no **IFRO — Campus Ariquemes/RO**, no Curso Técnico em Informática concluído em 2025: foi graças a essa oportunidade que pude atuar na área.
 
@@ -234,14 +234,14 @@ Sempre gostei de tecnologia desde pequeno. Meu primeiro contato com programaçã
 
 <table width="100%">
 <tr>
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="justify">
 
 ### <img src="https://api.iconify.design/lucide:zap.svg?color=%2360a5fa&width=22" align="center" height="22" /> &nbsp; Performance
 
 Código rápido, bundle enxuto, Lighthouse 95+ por padrão. **Performance é feature**, não detalhe.
 
 </td>
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="justify">
 
 ### <img src="https://api.iconify.design/lucide:accessibility.svg?color=%2360a5fa&width=22" align="center" height="22" /> &nbsp; Acessibilidade
 
@@ -250,14 +250,14 @@ WCAG AA no mínimo. Produto que exclui usuários é produto **quebrado**.
 </td>
 </tr>
 <tr>
-<td valign="top">
+<td valign="top" align="justify">
 
 ### <img src="https://api.iconify.design/lucide:gem.svg?color=%2360a5fa&width=22" align="center" height="22" /> &nbsp; Detalhe
 
 Animações, microinterações, tipografia. O detalhe separa **bom** de **memorável**.
 
 </td>
-<td valign="top">
+<td valign="top" align="justify">
 
 ### <img src="https://api.iconify.design/lucide:code-2.svg?color=%2360a5fa&width=22" align="center" height="22" /> &nbsp; Código limpo
 
