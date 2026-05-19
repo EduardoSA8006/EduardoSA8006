@@ -18,7 +18,7 @@
 
 <a href="https://github.com/EduardoSA8006">
   <img
-    src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&duration=3200&pause=900&color=60A5FA&center=true&vCenter=true&width=720&height=46&lines=Interfaces+precisas.+Produtos+memor%C3%A1veis.;Apps+em+Flutter+%E2%80%A2+Backends+em+FastAPI;Do+banco+ao+deploy%2C+ponta+a+ponta.;C%C3%B3digo+que+sobrevive+ao+tempo."
+    src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&duration=3200&pause=900&color=60A5FA&center=true&vCenter=true&width=820&height=46&lines=Interfaces+precisas.+Produtos+memor%C3%A1veis.;Apps+em+Flutter+%E2%80%A2+Backends+em+FastAPI;Do+banco+ao+deploy%2C+ponta+a+ponta.;C%C3%B3digo+que+sobrevive+ao+tempo."
     alt="tagline"
   />
 </a>
@@ -57,7 +57,7 @@
 <!-- ║                                SOBRE                                  ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
 
-## 👋 &nbsp; Olá, eu sou o Eduardo
+## <img src="https://api.iconify.design/lucide:hand.svg?color=%2360a5fa&width=28" align="center" height="28" /> &nbsp; Olá, eu sou o Eduardo
 
 Sou o **Eduardo de Souza Alves**, desenvolvedor **Fullstack & Mobile** baseado em **Ariquemes — Rondônia, Brasil**. Construo apps em **Flutter** e backends em **FastAPI** com foco em produto, arquitetura e código que envelhece bem. Aprendi a programar aos **12 anos**, criando mods para Minecraft — hoje resolvo problemas reais com a mesma curiosidade do primeiro dia.
 
@@ -65,7 +65,7 @@ Sou o **Eduardo de Souza Alves**, desenvolvedor **Fullstack & Mobile** baseado e
   <tr>
     <td valign="top" width="50%">
 
-### 🎯 &nbsp; No que estou focado
+### <img src="https://api.iconify.design/lucide:target.svg?color=%2360a5fa&width=22" align="center" height="22" /> &nbsp; No que estou focado
 
 - **Apps mobile em Flutter** com arquitetura feature-first + MVVM
 - **APIs em FastAPI** com JWT, CSRF, Redis e PostgreSQL
@@ -74,7 +74,7 @@ Sou o **Eduardo de Souza Alves**, desenvolvedor **Fullstack & Mobile** baseado e
 </td>
     <td valign="top" width="50%">
 
-### 🎓 &nbsp; Formação
+### <img src="https://api.iconify.design/lucide:graduation-cap.svg?color=%2360a5fa&width=22" align="center" height="22" /> &nbsp; Formação
 
 - **Técnico em Informática** — IFRO, Campus Ariquemes *(2023 — 2025)*
 - **Autodidata desde 2018** — modding de Minecraft, jogos e ferramentas
@@ -85,7 +85,7 @@ Sou o **Eduardo de Souza Alves**, desenvolvedor **Fullstack & Mobile** baseado e
   <tr>
     <td valign="top">
 
-### 🧭 &nbsp; Como eu trabalho
+### <img src="https://api.iconify.design/lucide:compass.svg?color=%2360a5fa&width=22" align="center" height="22" /> &nbsp; Como eu trabalho
 
 - Visão **do banco ao frontend**, ponta a ponta
 - Decisões guiadas por **produto e escalabilidade**
@@ -95,7 +95,7 @@ Sou o **Eduardo de Souza Alves**, desenvolvedor **Fullstack & Mobile** baseado e
 </td>
     <td valign="top">
 
-### ✨ &nbsp; Curiosidade
+### <img src="https://api.iconify.design/lucide:sparkles.svg?color=%2360a5fa&width=22" align="center" height="22" /> &nbsp; Curiosidade
 
 - Comecei a programar **aos 12 anos** criando mods para Minecraft
 - Game dev no tempo livre — Unity e Unreal
@@ -112,13 +112,16 @@ Sou o **Eduardo de Souza Alves**, desenvolvedor **Fullstack & Mobile** baseado e
 <!-- ║                              TECH STACK                               ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
 
-## 🛠️ &nbsp; Tecnologias que uso no dia a dia
+## <img src="https://api.iconify.design/lucide:wrench.svg?color=%2360a5fa&width=28" align="center" height="28" /> &nbsp; Tecnologias que uso no dia a dia
 
 <table>
   <tr>
     <td valign="top" width="33%">
 
-<h4 align="center">📱 &nbsp; Mobile</h4>
+<h4 align="center">
+  <img src="https://api.iconify.design/lucide:smartphone.svg?color=%2360a5fa&width=20" align="center" height="20" />
+  &nbsp; Mobile
+</h4>
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=flutter,dart,kotlin,swift,androidstudio" />
@@ -127,7 +130,10 @@ Sou o **Eduardo de Souza Alves**, desenvolvedor **Fullstack & Mobile** baseado e
 </td>
     <td valign="top" width="33%">
 
-<h4 align="center">🌐 &nbsp; Web</h4>
+<h4 align="center">
+  <img src="https://api.iconify.design/lucide:globe.svg?color=%2360a5fa&width=20" align="center" height="20" />
+  &nbsp; Web
+</h4>
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,vite,nodejs" />
@@ -136,7 +142,10 @@ Sou o **Eduardo de Souza Alves**, desenvolvedor **Fullstack & Mobile** baseado e
 </td>
     <td valign="top" width="33%">
 
-<h4 align="center">⚙️ &nbsp; Backend</h4>
+<h4 align="center">
+  <img src="https://api.iconify.design/lucide:server.svg?color=%2360a5fa&width=20" align="center" height="20" />
+  &nbsp; Backend
+</h4>
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=python,fastapi,postgres,redis,docker,nginx" />
@@ -147,7 +156,10 @@ Sou o **Eduardo de Souza Alves**, desenvolvedor **Fullstack & Mobile** baseado e
   <tr>
     <td valign="top">
 
-<h4 align="center">🧪 &nbsp; Qualidade</h4>
+<h4 align="center">
+  <img src="https://api.iconify.design/lucide:flask-conical.svg?color=%2360a5fa&width=20" align="center" height="20" />
+  &nbsp; Qualidade
+</h4>
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=vitest,jest,pytest,eslint,prettier" />
@@ -156,7 +168,10 @@ Sou o **Eduardo de Souza Alves**, desenvolvedor **Fullstack & Mobile** baseado e
 </td>
     <td valign="top">
 
-<h4 align="center">☁️ &nbsp; DevOps</h4>
+<h4 align="center">
+  <img src="https://api.iconify.design/lucide:cloud.svg?color=%2360a5fa&width=20" align="center" height="20" />
+  &nbsp; DevOps
+</h4>
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=linux,git,github,githubactions,bash,vercel" />
@@ -165,7 +180,10 @@ Sou o **Eduardo de Souza Alves**, desenvolvedor **Fullstack & Mobile** baseado e
 </td>
     <td valign="top">
 
-<h4 align="center">🎨 &nbsp; Design</h4>
+<h4 align="center">
+  <img src="https://api.iconify.design/lucide:palette.svg?color=%2360a5fa&width=20" align="center" height="20" />
+  &nbsp; Design
+</h4>
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=figma,ps,ai,blender" />
@@ -181,7 +199,7 @@ Sou o **Eduardo de Souza Alves**, desenvolvedor **Fullstack & Mobile** baseado e
 <!-- ║                              GITHUB STATS                             ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
 
-## 📊 &nbsp; Minha atividade no GitHub
+## <img src="https://api.iconify.design/lucide:bar-chart-3.svg?color=%2360a5fa&width=28" align="center" height="28" /> &nbsp; Minha atividade no GitHub
 
 <div align="center">
 
@@ -218,7 +236,7 @@ Sou o **Eduardo de Souza Alves**, desenvolvedor **Fullstack & Mobile** baseado e
 <!-- ║                            ACTIVITY GRAPH                             ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
 
-## 📈 &nbsp; Histórico de contribuições
+## <img src="https://api.iconify.design/lucide:trending-up.svg?color=%2360a5fa&width=28" align="center" height="28" /> &nbsp; Histórico de contribuições
 
 <a href="https://github.com/EduardoSA8006">
   <img
@@ -234,7 +252,7 @@ Sou o **Eduardo de Souza Alves**, desenvolvedor **Fullstack & Mobile** baseado e
 <!-- ║                              TROFÉUS                                  ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
 
-## 🏆 &nbsp; Conquistas
+## <img src="https://api.iconify.design/lucide:trophy.svg?color=%2360a5fa&width=28" align="center" height="28" /> &nbsp; Conquistas
 
 <div align="center">
 
@@ -253,20 +271,20 @@ Sou o **Eduardo de Souza Alves**, desenvolvedor **Fullstack & Mobile** baseado e
 <!-- ║                              FILOSOFIA                                ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
 
-## 💡 &nbsp; Princípios que guiam meu trabalho
+## <img src="https://api.iconify.design/lucide:lightbulb.svg?color=%2360a5fa&width=28" align="center" height="28" /> &nbsp; Princípios que guiam meu trabalho
 
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
 
-### ⚡ &nbsp; Performance
+### <img src="https://api.iconify.design/lucide:zap.svg?color=%2360a5fa&width=22" align="center" height="22" /> &nbsp; Performance
 
 Código rápido, bundle enxuto, Lighthouse 95+ por padrão. **Performance é feature**, não detalhe.
 
 </td>
 <td width="50%" valign="top">
 
-### ♿ &nbsp; Acessibilidade
+### <img src="https://api.iconify.design/lucide:accessibility.svg?color=%2360a5fa&width=22" align="center" height="22" /> &nbsp; Acessibilidade
 
 WCAG AA no mínimo. Produto que exclui usuários é produto **quebrado**.
 
@@ -275,14 +293,14 @@ WCAG AA no mínimo. Produto que exclui usuários é produto **quebrado**.
 <tr>
 <td valign="top">
 
-### ✨ &nbsp; Detalhe
+### <img src="https://api.iconify.design/lucide:gem.svg?color=%2360a5fa&width=22" align="center" height="22" /> &nbsp; Detalhe
 
 Animações, microinterações, tipografia. O detalhe separa **bom** de **memorável**.
 
 </td>
 <td valign="top">
 
-### 🧱 &nbsp; Código limpo
+### <img src="https://api.iconify.design/lucide:code-2.svg?color=%2360a5fa&width=22" align="center" height="22" /> &nbsp; Código limpo
 
 TypeScript strict, testes onde importa, docs vivas. O **futuro-eu** sempre agradece.
 
@@ -296,7 +314,7 @@ TypeScript strict, testes onde importa, docs vivas. O **futuro-eu** sempre agrad
 <!-- ║                          SNAKE — COMMITS REAIS                        ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
 
-## 🐍 &nbsp; Cobrinha dos commits
+## <img src="https://api.iconify.design/mdi:snake.svg?color=%2360a5fa&width=28" align="center" height="28" /> &nbsp; Cobrinha dos commits
 
 <sub>Gerada a partir do meu grafo de contribuições — atualiza automaticamente a cada 12h.</sub>
 
@@ -322,7 +340,7 @@ TypeScript strict, testes onde importa, docs vivas. O **futuro-eu** sempre agrad
 <!-- ║                              CONTATO / CTA                            ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
 
-## 📡 &nbsp; Vamos conversar
+## <img src="https://api.iconify.design/lucide:radio-tower.svg?color=%2360a5fa&width=28" align="center" height="28" /> &nbsp; Vamos conversar
 
 <div align="center">
 
@@ -330,28 +348,28 @@ TypeScript strict, testes onde importa, docs vivas. O **futuro-eu** sempre agrad
 <tr>
 <td align="center" width="180">
 <a href="mailto:eduardoalves8006@gmail.com">
-  <img src="https://img.icons8.com/fluency/64/000000/gmail-new.png" width="38" alt="email" /><br/>
+  <img src="https://api.iconify.design/simple-icons:gmail.svg?color=%2360a5fa&width=40" width="40" alt="email" /><br/>
   <sub><b>E-mail</b></sub><br/>
   <sub>resposta em 24h</sub>
 </a>
 </td>
 <td align="center" width="180">
 <a href="https://www.linkedin.com/in/eduardo8006">
-  <img src="https://img.icons8.com/fluency/64/000000/linkedin.png" width="38" alt="linkedin" /><br/>
+  <img src="https://api.iconify.design/simple-icons:linkedin.svg?color=%2360a5fa&width=40" width="40" alt="linkedin" /><br/>
   <sub><b>LinkedIn</b></sub><br/>
   <sub>/in/eduardo8006</sub>
 </a>
 </td>
 <td align="center" width="180">
 <a href="https://www.instagram.com/eduardo__8006">
-  <img src="https://img.icons8.com/fluency/64/000000/instagram-new.png" width="38" alt="instagram" /><br/>
+  <img src="https://api.iconify.design/simple-icons:instagram.svg?color=%2360a5fa&width=40" width="40" alt="instagram" /><br/>
   <sub><b>Instagram</b></sub><br/>
   <sub>@eduardo__8006</sub>
 </a>
 </td>
 <td align="center" width="180">
 <a href="https://github.com/EduardoSA8006">
-  <img src="https://img.icons8.com/fluency/64/000000/github.png" width="38" alt="github" /><br/>
+  <img src="https://api.iconify.design/simple-icons:github.svg?color=%2360a5fa&width=40" width="40" alt="github" /><br/>
   <sub><b>GitHub</b></sub><br/>
   <sub>@EduardoSA8006</sub>
 </a>
