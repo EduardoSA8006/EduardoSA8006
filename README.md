@@ -266,7 +266,7 @@ Sempre gostei de tecnologia desde pequeno. Meu primeiro contato com programaçã
 <br />
 
 <sub>
-  Quer construir algo juntos? Os projetos vivem no portfólio — aqui mora a história por trás deles.
+  Quer saber mais sobre mim e meu trabalho? Dê uma olhada no meu portfólio!
 </sub>
 
 </div>
