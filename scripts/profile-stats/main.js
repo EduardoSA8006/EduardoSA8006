@@ -1,8 +1,9 @@
-// Gera stats.svg, activity.svg e languages.svg em OUT_DIR (padrão: dist).
+// Gera stats.svg, activity.svg, languages.svg e conquistas.svg em OUT_DIR (padrão: dist).
 //
 // Env:
 //   GITHUB_TOKEN  obrigatório — contribuições e estatísticas (user(login)).
-//   LANGS_TOKEN   opcional — PAT do dono (Metadata: read) para incluir repos privados nas linguagens.
+//   LANGS_TOKEN   opcional — PAT do dono (Metadata: read) para incluir repos privados nas linguagens
+//                 (languages.svg e a conquista "Linguagens usadas").
 //   GH_LOGIN      obrigatório — login do usuário.
 //   OUT_DIR       opcional — diretório de saída.
 //
@@ -21,6 +22,7 @@ import { collectContributions, collectLanguagesWithFallback } from './collect.js
 import { renderStats } from './render/stats.js';
 import { renderActivity } from './render/activity.js';
 import { renderLanguages } from './render/languages.js';
+import { renderAchievements } from './render/achievements.js';
 
 function requireEnv(name) {
   const value = process.env[name]?.trim();
@@ -38,11 +40,11 @@ async function main() {
   if (langsToken) {
     langsClient = createClient({ token: langsToken });
   } else {
-    console.log('::warning::LANGS_TOKEN ausente: languages.svg considera apenas repositórios públicos (GITHUB_TOKEN). ' +
+    console.log('::warning::LANGS_TOKEN ausente: languages.svg e a conquista "Linguagens usadas" consideram apenas repositórios públicos (GITHUB_TOKEN). ' +
       'Crie um PAT fine-grained com "Metadata: read" em todos os repositórios e salve no secret LANGS_TOKEN.');
   }
 
-  const [{ stats, days }, languages] = await Promise.all([
+  const [{ stats, days }, { languages, languageCount }] = await Promise.all([
     collectContributions(client, login),
     collectLanguagesWithFallback(langsClient, client, login),
   ]);
@@ -52,12 +54,14 @@ async function main() {
     writeFile(join(outDir, 'stats.svg'), renderStats(stats)),
     writeFile(join(outDir, 'activity.svg'), renderActivity(days)),
     writeFile(join(outDir, 'languages.svg'), renderLanguages(languages)),
+    writeFile(join(outDir, 'conquistas.svg'), renderAchievements({ ...stats, languageCount })),
   ]);
 
   console.log(`Contribuições totais: ${stats.totalContributions} (desde ${stats.since})`);
   console.log(`Último ano: ${stats.lastYearContributions} | privadas (total): ${stats.privateContributions}`);
   console.log(`Commits: ${stats.commits} | PRs: ${stats.pullRequests} | issues: ${stats.issues} | repositórios: ${stats.repositories}`);
-  console.log(`Linguagens: ${languages.length} | SVGs gravados em ${outDir}/`);
+  console.log(`Maior sequência: ${stats.longestStreak} dias | pico em um dia: ${stats.peakDay}`);
+  console.log(`Linguagens: ${languages.length} no card, ${languageCount} distintas | SVGs gravados em ${outDir}/`);
 }
 
 main().catch((error) => {

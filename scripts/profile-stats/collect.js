@@ -2,7 +2,16 @@
 // As consultas nunca pedem nome, descrição ou URL de repositório.
 
 import { paginate } from './github.js';
-import { yearWindows, summarizeContributions, calendarDays, aggregateLanguages } from './aggregate.js';
+import {
+  yearWindows,
+  summarizeContributions,
+  calendarDays,
+  mergeCalendarDays,
+  longestStreak,
+  peakDay,
+  countLanguages,
+  aggregateLanguages,
+} from './aggregate.js';
 
 const PROFILE_QUERY = `
   query ($login: String!) {
@@ -26,7 +35,10 @@ const WINDOW_QUERY = `
         totalCommitContributions
         totalPullRequestContributions
         totalIssueContributions
-        contributionCalendar { totalContributions }
+        contributionCalendar {
+          totalContributions
+          weeks { contributionDays { date contributionCount } }
+        }
       }
     }
   }`;
@@ -50,7 +62,9 @@ function requireUser(data, login) {
   return data.user;
 }
 
-// Estatísticas de contribuição (públicas + privadas) e dias do último ano.
+// Estatísticas de contribuição (públicas + privadas), recordes diários de toda
+// a história (maior sequência e pico, unindo os calendários das janelas) e dias
+// do último ano.
 export async function collectContributions(client, login, now = new Date()) {
   const profile = requireUser(await client.graphql(PROFILE_QUERY, { login }), login);
 
@@ -61,25 +75,28 @@ export async function collectContributions(client, login, now = new Date()) {
   }
 
   const calendar = profile.contributionsCollection.contributionCalendar;
+  const history = mergeCalendarDays(collections.map((c) => c.contributionCalendar));
   return {
     stats: {
       ...summarizeContributions(collections),
       lastYearContributions: calendar.totalContributions,
       repositories: profile.repositories.totalCount,
       since: profile.createdAt,
+      longestStreak: longestStreak(history),
+      peakDay: peakDay(history),
     },
     days: calendarDays(calendar),
   };
 }
 
-// Linguagens por bytes nos repositórios próprios (sem forks). Inclui privados
-// quando o token do cliente tem acesso a eles.
+// Linguagens por bytes nos repositórios próprios (sem forks) e o número de
+// linguagens distintas. Inclui privados quando o token do cliente tem acesso a eles.
 export async function collectLanguages(client, login, { limit = 10 } = {}) {
   const repos = await paginate(async (after) => {
     const data = await client.graphql(LANGUAGES_QUERY, { login, after });
     return requireUser(data, login).repositories;
   });
-  return aggregateLanguages(repos, { limit });
+  return { languages: aggregateLanguages(repos, { limit }), languageCount: countLanguages(repos) };
 }
 
 // Erro de autenticação/permissão (token inválido, expirado ou sem acesso),

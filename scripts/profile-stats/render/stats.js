@@ -2,16 +2,7 @@
 
 import { card, theme } from './theme.js';
 import { escapeXml, formatNumber, MONTHS } from './svg.js';
-
-// Ícones 16×16 desenhados com traço (sem fontes nem recursos externos).
-const ICONS = {
-  calendar: '<rect x="1.5" y="2.5" width="13" height="12" rx="2"/><path d="M1.5 6.5h13M5 1v3M11 1v3"/>',
-  lock: '<rect x="3" y="7" width="10" height="7.5" rx="1.5"/><path d="M5.5 7V5a2.5 2.5 0 0 1 5 0v2"/>',
-  commit: '<circle cx="8" cy="8" r="3"/><path d="M1.5 8H5M11 8h3.5"/>',
-  pullRequest: '<circle cx="4" cy="3.5" r="1.8"/><circle cx="4" cy="12.5" r="1.8"/><circle cx="12" cy="12.5" r="1.8"/><path d="M4 5.3v5.4M12 10.7V6.5a2 2 0 0 0-2-2H7.5M9 3l-1.5 1.5L9 6"/>',
-  issue: '<circle cx="8" cy="8" r="6.5"/><circle cx="8" cy="8" r="1.3" fill="currentColor"/>',
-  repo: '<path d="M3 13V2.8A1.3 1.3 0 0 1 4.3 1.5H13v10H4.3A1.3 1.3 0 0 0 3 12.8a1.3 1.3 0 0 0 1.3 1.2H13"/>',
-};
+import { ICONS } from './icons.js';
 
 function sinceLabel(iso) {
   const date = new Date(iso);

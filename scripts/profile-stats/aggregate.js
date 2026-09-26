@@ -51,9 +51,60 @@ export function calendarDays(calendar) {
     .sort((a, b) => a.date.localeCompare(b.date));
 }
 
-// Soma bytes por linguagem em todos os repositórios e devolve as `limit`
-// maiores (a última vira "Outras" quando há excedente).
-export function aggregateLanguages(repos, { limit = 10 } = {}) {
+// Une os calendários de várias janelas em [{ date, count }] ordenado por data.
+// Defensivo: se uma data aparecer em mais de uma janela, fica a maior contagem.
+export function mergeCalendarDays(calendars) {
+  const byDate = new Map();
+  for (const calendar of calendars) {
+    for (const { date, count } of calendarDays(calendar)) {
+      byDate.set(date, Math.max(count, byDate.get(date) ?? 0));
+    }
+  }
+  return [...byDate]
+    .map(([date, count]) => ({ date, count }))
+    .sort((a, b) => a.date.localeCompare(b.date));
+}
+
+const DAY_MS = 24 * 60 * 60 * 1000;
+
+// Maior sequência de dias consecutivos com pelo menos 1 contribuição.
+// Dias com 0 ou ausentes do calendário quebram a sequência.
+export function longestStreak(days) {
+  let best = 0;
+  let current = 0;
+  let previous = null;
+  for (const { date, count } of days) {
+    const time = Date.parse(`${date}T00:00:00Z`);
+    if (count <= 0) {
+      current = 0;
+    } else {
+      current = previous !== null && time - previous === DAY_MS ? current + 1 : 1;
+      best = Math.max(best, current);
+    }
+    previous = time;
+  }
+  return best;
+}
+
+// Maior contagem de contribuições em um único dia.
+export function peakDay(days) {
+  return days.reduce((max, { count }) => Math.max(max, count), 0);
+}
+
+// Nível alcançado em uma escala crescente de limiares e o progresso (0–1)
+// do limiar atual até o próximo. No nível máximo, `next` é null e a barra fica cheia.
+export function levelProgress(value, thresholds) {
+  const maxLevel = thresholds.length;
+  const level = thresholds.filter((t) => value >= t).length;
+  if (level === maxLevel) return { level, maxLevel, next: null, progress: 1 };
+
+  const floor = level === 0 ? 0 : thresholds[level - 1];
+  const next = thresholds[level];
+  return { level, maxLevel, next, progress: (value - floor) / (next - floor) };
+}
+
+// Soma bytes por linguagem em todos os repositórios (só linguagens com código).
+function languageTotals(repos) {
   const byName = new Map();
   for (const repo of repos) {
     for (const { size, node } of repo.languages?.edges ?? []) {
@@ -63,9 +114,18 @@ export function aggregateLanguages(repos, { limit = 10 } = {}) {
       byName.set(node.name, entry);
     }
   }
+  return [...byName.values()].filter((l) => l.size > 0);
+}
 
-  const sorted = [...byName.values()]
-    .filter((l) => l.size > 0)
+// Número de linguagens distintas com código (antes de agrupar em "Outras").
+export function countLanguages(repos) {
+  return languageTotals(repos).length;
+}
+
+// Devolve as `limit` linguagens com mais bytes (a última vira "Outras" quando
+// há excedente).
+export function aggregateLanguages(repos, { limit = 10 } = {}) {
+  const sorted = languageTotals(repos)
     .sort((a, b) => b.size - a.size || a.name.localeCompare(b.name));
   const total = sorted.reduce((acc, l) => acc + l.size, 0);
   if (total === 0) return [];

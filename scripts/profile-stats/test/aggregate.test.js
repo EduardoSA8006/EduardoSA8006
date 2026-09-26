@@ -4,7 +4,12 @@ import {
   yearWindows,
   summarizeContributions,
   calendarDays,
+  mergeCalendarDays,
+  longestStreak,
+  peakDay,
+  countLanguages,
   aggregateLanguages,
+  levelProgress,
 } from '../aggregate.js';
 
 test('yearWindows: uma janela quando a conta tem menos de 1 ano', () => {
@@ -83,6 +88,84 @@ test('calendarDays: achata as semanas em dias ordenados por data', () => {
   ]);
 });
 
+const week = (...days) => ({ contributionDays: days.map(([date, contributionCount]) => ({ date, contributionCount })) });
+
+test('mergeCalendarDays: une os calendários das janelas em ordem e sem datas repetidas', () => {
+  const days = mergeCalendarDays([
+    { weeks: [week(['2025-11-10', 1], ['2025-11-11', 2])] },
+    { weeks: [week(['2025-11-11', 2], ['2025-11-12', 5])] },
+  ]);
+  assert.deepEqual(days, [
+    { date: '2025-11-10', count: 1 },
+    { date: '2025-11-11', count: 2 },
+    { date: '2025-11-12', count: 5 },
+  ]);
+});
+
+test('mergeCalendarDays: data repetida com contagens diferentes fica com a maior', () => {
+  const days = mergeCalendarDays([
+    { weeks: [week(['2026-01-01', 3])] },
+    { weeks: [week(['2026-01-01', 7])] },
+  ]);
+  assert.deepEqual(days, [{ date: '2026-01-01', count: 7 }]);
+});
+
+const day = (date, count) => ({ date, count });
+
+test('longestStreak: sem dias ou só com zeros dá 0', () => {
+  assert.equal(longestStreak([]), 0);
+  assert.equal(longestStreak([day('2026-01-01', 0), day('2026-01-02', 0)]), 0);
+});
+
+test('longestStreak: dia com 0 contribuições quebra a sequência', () => {
+  const days = [
+    day('2026-01-01', 1), day('2026-01-02', 4), day('2026-01-03', 0),
+    day('2026-01-04', 2), day('2026-01-05', 1), day('2026-01-06', 9), day('2026-01-07', 0),
+  ];
+  assert.equal(longestStreak(days), 3);
+});
+
+test('longestStreak: dia ausente também quebra a sequência', () => {
+  assert.equal(longestStreak([day('2026-01-01', 1), day('2026-01-02', 1), day('2026-01-04', 1)]), 2);
+});
+
+test('longestStreak: sequência atravessa a virada entre duas janelas anuais', () => {
+  const days = mergeCalendarDays([
+    { weeks: [week(['2025-11-09', 0], ['2025-11-10', 1], ['2025-11-11', 3])] },
+    { weeks: [week(['2025-11-12', 2], ['2025-11-13', 6], ['2025-11-14', 0])] },
+  ]);
+  assert.equal(longestStreak(days), 4);
+});
+
+test('longestStreak: atravessa virada de mês e de ano', () => {
+  const days = [day('2025-12-30', 1), day('2025-12-31', 1), day('2026-01-01', 1), day('2026-01-02', 1)];
+  assert.equal(longestStreak(days), 4);
+});
+
+test('peakDay: maior contagem diária, 0 sem dias', () => {
+  assert.equal(peakDay([]), 0);
+  assert.equal(peakDay([day('2025-01-01', 4), day('2026-03-02', 31), day('2026-03-03', 7)]), 31);
+});
+
+test('levelProgress: abaixo do 1º nível', () => {
+  assert.deepEqual(levelProgress(40, [100, 500, 1000]), { level: 0, maxLevel: 3, next: 100, progress: 0.4 });
+  assert.deepEqual(levelProgress(0, [100, 500, 1000]), { level: 0, maxLevel: 3, next: 100, progress: 0 });
+});
+
+test('levelProgress: exatamente no limiar sobe de nível com progresso zerado', () => {
+  assert.deepEqual(levelProgress(100, [100, 500, 1000]), { level: 1, maxLevel: 3, next: 500, progress: 0 });
+});
+
+test('levelProgress: entre níveis mede o progresso a partir do limiar atual', () => {
+  assert.deepEqual(levelProgress(300, [100, 500, 1000]), { level: 1, maxLevel: 3, next: 500, progress: 0.5 });
+});
+
+test('levelProgress: no nível máximo e acima dele a barra fica cheia', () => {
+  const max = { level: 3, maxLevel: 3, next: null, progress: 1 };
+  assert.deepEqual(levelProgress(1000, [100, 500, 1000]), max);
+  assert.deepEqual(levelProgress(4321, [100, 500, 1000]), max);
+});
+
 const repo = (name, langs) => ({
   name,
   description: `descrição de ${name}`,
@@ -136,4 +219,14 @@ test('aggregateLanguages: resultado não carrega nome nem descrição de reposit
   const json = JSON.stringify(result);
   assert.ok(!json.includes('projeto-secreto-cliente'));
   assert.ok(!json.includes('descrição'));
+});
+
+test('countLanguages: conta linguagens distintas antes de agrupar em "Outras"', () => {
+  const repos = [
+    repo('a', [['Dart', 600, '#00B4AB'], ['Python', 100, '#3572A5'], ['Vazia', 0, '#000000']]),
+    repo('b', [['Python', 300, '#3572A5'], ['Kotlin', 5, '#A97BFF'], ['Swift', 1, '#F05138']]),
+  ];
+  assert.equal(countLanguages(repos), 4);
+  assert.equal(aggregateLanguages(repos, { limit: 2 }).length, 2);
+  assert.equal(countLanguages([]), 0);
 });

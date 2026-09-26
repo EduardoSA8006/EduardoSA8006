@@ -3,6 +3,8 @@ import assert from 'node:assert/strict';
 import { renderStats } from '../render/stats.js';
 import { renderActivity } from '../render/activity.js';
 import { renderLanguages } from '../render/languages.js';
+import { renderAchievements } from '../render/achievements.js';
+import { theme } from '../render/theme.js';
 import { assertWellFormedSvg } from './helpers.js';
 
 const stats = {
@@ -83,4 +85,61 @@ test('renderLanguages: lista vazia mostra aviso', () => {
 test('renderLanguages: cor inválida não é injetada no SVG', () => {
   const svg = renderLanguages([{ name: 'X', color: '"/><script>', size: 1, percent: 100 }]);
   assertWellFormedSvg(svg);
+});
+
+const records = {
+  totalContributions: 3543,
+  longestStreak: 38,
+  peakDay: 212,
+  pullRequests: 55,
+  languageCount: 9,
+  repositories: 3,
+};
+
+test('renderAchievements: SVG válido com as 6 conquistas, valores em pt-BR e níveis', () => {
+  const svg = renderAchievements(records);
+  assertWellFormedSvg(svg);
+  assert.match(svg, /viewBox="0 0 990 260"/);
+  assert.match(svg, />Conquistas</);
+  for (const title of ['Contribuições totais', 'Maior sequência de dias', 'Pico em um dia', 'PRs públicos', 'Linguagens usadas', 'Repositórios públicos']) {
+    assert.ok(svg.includes(`>${title}<`), `conquista ${title} ausente`);
+  }
+  for (const value of ['3.543', '38', '212', '55', '9', '3']) {
+    assert.ok(svg.includes(`>${value}<`), `valor ${value} ausente`);
+  }
+  // 3.543 → nível 4/5; 38 dias → 2/4; 212 → 4/4 (máximo); 55 → 2/4; 9 → 2/4; 3 → 0/4.
+  for (const level of ['Nível 4/5', 'Nível 2/4', 'Nível 4/4', 'Nível 0/4']) {
+    assert.ok(svg.includes(`>${level}<`), `${level} ausente`);
+  }
+  assert.equal((svg.match(/class="progress"/g) ?? []).length, 6);
+  assert.match(svg, /nível máximo/);
+  assert.ok(svg.includes('5.000'), 'próximo limiar da conquista de contribuições ausente');
+});
+
+test('renderAchievements: nível máximo tem barra cheia e cor mais forte da escala', () => {
+  const widths = (svg, cls) =>
+    [...svg.matchAll(new RegExp(`<rect class="${cls}"[^>]*width="([\\d.]+)"`, 'g'))].map((m) => Number(m[1]));
+  const below = renderAchievements({ ...records, peakDay: 150 });
+  assert.ok(widths(below, 'progress')[2] < widths(below, 'track')[2]);
+  assert.doesNotMatch(below, /nível máximo/);
+
+  const svg = renderAchievements({ ...records, peakDay: 999 });
+  assert.equal(widths(svg, 'progress')[2], widths(svg, 'track')[2]);
+  assert.ok(svg.includes(`fill="${theme.levels.at(-1)}"`), 'nível máximo sem a cor mais forte');
+  assert.equal((svg.match(/nível máximo/g) ?? []).length, 1);
+});
+
+test('renderAchievements: zerado é válido e sem barra de progresso', () => {
+  const zero = Object.fromEntries(Object.keys(records).map((k) => [k, 0]));
+  const svg = renderAchievements(zero);
+  assertWellFormedSvg(svg);
+  assert.equal((svg.match(/>Nível 0\/\d</g) ?? []).length, 6);
+  const bars = [...svg.matchAll(/<rect class="progress"[^>]*width="([\d.]+)"/g)].map((m) => Number(m[1]));
+  assert.ok(bars.every((w) => w === 0));
+});
+
+test('renderAchievements: nenhum nome ou descrição de repositório chega ao SVG', () => {
+  const svg = renderAchievements({ ...records, name: 'projeto-secreto-cliente', description: 'descrição sigilosa' });
+  assert.ok(!svg.includes('projeto-secreto-cliente'));
+  assert.ok(!svg.includes('sigilosa'));
 });
