@@ -1,4 +1,6 @@
-// Gera stats.svg, activity.svg, languages.svg e conquistas.svg em OUT_DIR (padrão: dist).
+// Gera stats.svg, activity.svg, languages.svg e conquistas.svg em OUT_DIR (padrão: dist),
+// em pt-BR, e as versões em inglês com sufixo -en (stats-en.svg etc.). Os dados
+// são coletados uma única vez e renderizados nos dois idiomas.
 //
 // Env:
 //   GITHUB_TOKEN  obrigatório — contribuições e estatísticas (user(login)).
@@ -23,6 +25,12 @@ import { renderStats } from './render/stats.js';
 import { renderActivity } from './render/activity.js';
 import { renderLanguages } from './render/languages.js';
 import { renderAchievements } from './render/achievements.js';
+
+// Idioma → sufixo dos arquivos. pt-BR mantém os nomes originais.
+const OUTPUTS = [
+  { locale: 'pt-BR', suffix: '' },
+  { locale: 'en', suffix: '-en' },
+];
 
 function requireEnv(name) {
   const value = process.env[name]?.trim();
@@ -50,12 +58,12 @@ async function main() {
   ]);
 
   await mkdir(outDir, { recursive: true });
-  await Promise.all([
-    writeFile(join(outDir, 'stats.svg'), renderStats(stats)),
-    writeFile(join(outDir, 'activity.svg'), renderActivity(days)),
-    writeFile(join(outDir, 'languages.svg'), renderLanguages(languages)),
-    writeFile(join(outDir, 'conquistas.svg'), renderAchievements({ ...stats, languageCount })),
-  ]);
+  await Promise.all(OUTPUTS.flatMap(({ locale, suffix }) => [
+    writeFile(join(outDir, `stats${suffix}.svg`), renderStats(stats, { locale })),
+    writeFile(join(outDir, `activity${suffix}.svg`), renderActivity(days, { locale })),
+    writeFile(join(outDir, `languages${suffix}.svg`), renderLanguages(languages, { locale })),
+    writeFile(join(outDir, `conquistas${suffix}.svg`), renderAchievements({ ...stats, languageCount }, { locale })),
+  ]));
 
   console.log(`Contribuições totais: ${stats.totalContributions} (desde ${stats.since})`);
   console.log(`Último ano: ${stats.lastYearContributions} | privadas (total): ${stats.privateContributions}`);

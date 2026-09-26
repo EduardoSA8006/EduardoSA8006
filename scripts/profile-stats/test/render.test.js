@@ -143,3 +143,71 @@ test('renderAchievements: nenhum nome ou descrição de repositório chega ao SV
   assert.ok(!svg.includes('projeto-secreto-cliente'));
   assert.ok(!svg.includes('sigilosa'));
 });
+
+// ── Inglês ────────────────────────────────────────────────────────────────
+
+// Rótulos em português que não podem aparecer nos cards em inglês.
+const PT_WORDS = /Contribuições|contribuições|públic|Repositórios|estatísticas|Linguagens|Conquistas|Nível|nível|próximo|dias|desde|pico|último|Outras|Sem dados/;
+
+test('renderStats (en): textos em inglês e números en-US', () => {
+  const svg = renderStats(stats, { locale: 'en' });
+  assertWellFormedSvg(svg);
+  assert.match(svg, /viewBox="0 0 495 195"/);
+  for (const value of ['3,543', '2,743', '2,979', '394', '55', '25']) {
+    assert.ok(svg.includes(`>${value}<`), `valor ${value} ausente`);
+  }
+  for (const text of ['My stats', 'Contributions in the last year', 'Private contributions', 'Public commits', 'Public PRs', 'Public issues', 'Public repositories', 'total contributions', 'since Nov 2024']) {
+    assert.ok(svg.includes(`>${text}<`), `texto ${text} ausente`);
+  }
+  assert.doesNotMatch(svg, PT_WORDS);
+});
+
+test('renderActivity (en): título, resumo e meses em inglês', () => {
+  const svg = renderActivity(days, { locale: 'en' });
+  assertWellFormedSvg(svg);
+  assert.ok(svg.includes('>Contributions · last year<'));
+  const total = days.reduce((acc, d) => acc + d.count, 0);
+  assert.ok(total >= 1000);
+  assert.ok(svg.includes(`>${total.toLocaleString('en-US')} contributions · peak of 22 in a day<`));
+  for (const month of ['Oct', 'Jan', 'Sep']) assert.ok(svg.includes(`>${month}<`), `mês ${month} ausente`);
+  assert.doesNotMatch(svg, PT_WORDS);
+  assert.doesNotMatch(renderActivity([], { locale: 'en' }), PT_WORDS);
+});
+
+test('renderLanguages (en): título, "Other" e percentuais en-US', () => {
+  const svg = renderLanguages(languages, { locale: 'en' });
+  assertWellFormedSvg(svg);
+  assert.ok(svg.includes('>Most used languages<'));
+  assert.ok(svg.includes('44.8%'));
+  assert.ok(svg.includes('>Other <tspan'));
+  assert.doesNotMatch(svg, PT_WORDS);
+  assert.doesNotMatch(renderLanguages([], { locale: 'en' }), PT_WORDS);
+});
+
+test('renderAchievements (en): conquistas, níveis e legendas em inglês', () => {
+  const svg = renderAchievements(records, { locale: 'en' });
+  assertWellFormedSvg(svg);
+  assert.match(svg, />Achievements</);
+  for (const title of ['Total contributions', 'Longest streak', 'Peak in a day', 'Public PRs', 'Languages used', 'Public repositories']) {
+    assert.ok(svg.includes(`>${title}<`), `conquista ${title} ausente`);
+  }
+  for (const level of ['Level 4/5', 'Level 2/4', 'Level 4/4', 'Level 0/4']) {
+    assert.ok(svg.includes(`>${level}<`), `${level} ausente`);
+  }
+  assert.ok(svg.includes('>3,543<'));
+  assert.ok(svg.includes('>next level: 5,000<'));
+  assert.ok(svg.includes('>next level: 100 days<'));
+  assert.ok(svg.includes('>days</tspan>'));
+  assert.match(svg, />max level</);
+  assert.doesNotMatch(svg, PT_WORDS);
+});
+
+test('singular: 1 dia/contribuição em pt-BR e 1 day/contribution em inglês', () => {
+  const oneDay = [{ date: '2026-09-26', count: 1 }];
+  assert.match(renderActivity(oneDay, { locale: 'en' }), />1 contribution · peak of 1 in a day</);
+  assert.match(renderActivity(oneDay), />1 contribuição · pico de 1 em um dia</);
+  const one = { ...records, longestStreak: 1 };
+  assert.match(renderAchievements(one, { locale: 'en' }), />day<\/tspan>/);
+  assert.match(renderAchievements(one, { locale: 'en' }), /next level: 7 days/);
+  assert.match(renderAchievements(one), />dia<\/tspan>/);
+});

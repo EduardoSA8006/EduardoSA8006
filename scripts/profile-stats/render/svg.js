@@ -1,22 +1,10 @@
-// Utilidades de texto e números compartilhadas pelos renderizadores.
-
-export const MONTHS = ['jan', 'fev', 'mar', 'abr', 'mai', 'jun', 'jul', 'ago', 'set', 'out', 'nov', 'dez'];
+// Utilidades de texto e números compartilhadas pelos renderizadores
+// (textos e formatos por idioma ficam em i18n.js).
 
 const XML_ENTITIES = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&apos;' };
 
 export function escapeXml(value) {
   return String(value).replace(/[&<>"']/g, (ch) => XML_ENTITIES[ch]);
-}
-
-const integerFormat = new Intl.NumberFormat('pt-BR', { maximumFractionDigits: 0, useGrouping: 'always' });
-const percentFormat = new Intl.NumberFormat('pt-BR', { minimumFractionDigits: 1, maximumFractionDigits: 1 });
-
-export function formatNumber(value) {
-  return integerFormat.format(value);
-}
-
-export function formatPercent(value) {
-  return `${percentFormat.format(value)}%`;
 }
 
 // Menor valor "redondo" (1, 1.5, 2, 2.5, 3, 4, 5, 10 × 10^n) que seja >= value.

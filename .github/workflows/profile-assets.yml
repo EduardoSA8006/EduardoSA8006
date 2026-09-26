@@ -33,7 +33,7 @@ jobs:
 
       # Stats e activity usam o GITHUB_TOKEN; languages usa o LANGS_TOKEN (PAT
       # fine-grained com "Metadata: read") para incluir repositórios privados.
-      - name: Generate stats, activity and languages SVGs
+      - name: Generate profile SVGs (pt-BR and en)
         run: node scripts/profile-stats/main.js
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

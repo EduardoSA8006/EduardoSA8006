@@ -1,18 +1,18 @@
 <div align="center">
 
 <!-- ╔══════════════════════════════════════════════════════════════════════╗ -->
-<!-- ║                          MAIN BANNER                                  ║ -->
+<!-- ║                          BANNER PRINCIPAL                             ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
 
 <a href="https://github.com/EduardoSA8006">
   <img
-    src="https://raw.githubusercontent.com/EduardoSA8006/EduardoSA8006/main/assets/banner-en.svg"
-    alt="Eduardo Alves — Fullstack & Mobile Developer"
+    src="https://raw.githubusercontent.com/EduardoSA8006/EduardoSA8006/main/assets/banner.svg"
+    alt="Eduardo Alves — Desenvolvedor Fullstack & Mobile"
     width="100%"
   />
 </a>
 
-<sub><b>English</b> · <a href="https://github.com/EduardoSA8006/EduardoSA8006/blob/main/README.pt-BR.md">Português</a></sub>
+<sub><a href="https://github.com/EduardoSA8006/EduardoSA8006/blob/main/README.md">English</a> · <b>Português</b></sub>
 
 <br />
 <br />
@@ -25,22 +25,22 @@
   <img src="https://img.shields.io/badge/LinkedIn-1e3a8a?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xOSAwaC0xNGMtMi43NjEgMC01IDIuMjM5LTUgNXYxNGMwIDIuNzYxIDIuMjM5IDUgNSA1aDE0YzIuNzYyIDAgNS0yLjIzOSA1LTV2LTE0YzAtMi43NjEtMi4yMzgtNS01LTV6bS0xMSAxOWgtM3YtMTFoM3YxMXptLTEuNS0xMi4yNjhjLS45NjYgMC0xLjc1LS43OS0xLjc1LTEuNzY0cy43ODQtMS43NjQgMS43NS0xLjc2NCAxLjc1Ljc5IDEuNzUgMS43NjQtLjc4MyAxLjc2NC0xLjc1IDEuNzY0em0xMy41IDEyLjI2OGgtM3YtNS42MDRjMC0zLjM2OC00LTMuMTEzLTQgMHY1LjYwNGgtM3YtMTFoM3YxLjc2NWMxLjM5Ni0yLjU4NiA3LTIuNzc3IDcgMi40NzZ2Ni43NTl6Ii8+PC9zdmc+" alt="LinkedIn" />
 </a>
 <a href="mailto:eduardoalves8006@gmail.com">
-  <img src="https://img.shields.io/badge/E--mail-2563eb?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail" />
+  <img src="https://img.shields.io/badge/E--mail-2563eb?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
 </a>
 <a href="https://www.instagram.com/eduardo__8006">
   <img src="https://img.shields.io/badge/Instagram-3b82f6?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
 </a>
 <a href="https://eduardoalves.online/">
-  <img src="https://img.shields.io/badge/Portfolio-60A5FA?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyLjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iMTAiLz48cGF0aCBkPSJNMiAxMmgyMCIvPjxwYXRoIGQ9Ik0xMiAyYTE1LjMgMTUuMyAwIDAgMSA0IDEwIDE1LjMgMTUuMyAwIDAgMS00IDEwIDE1LjMgMTUuMyAwIDAgMS00LTEwIDE1LjMgMTUuMyAwIDAgMSA0LTEweiIvPjwvc3ZnPg==" alt="Portfolio" />
+  <img src="https://img.shields.io/badge/Portf%C3%B3lio-60A5FA?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyLjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iMTAiLz48cGF0aCBkPSJNMiAxMmgyMCIvPjxwYXRoIGQ9Ik0xMiAyYTE1LjMgMTUuMyAwIDAgMSA0IDEwIDE1LjMgMTUuMyAwIDAgMS00IDEwIDE1LjMgMTUuMyAwIDAgMS00LTEwIDE1LjMgMTUuMyAwIDAgMSA0LTEweiIvPjwvc3ZnPg==" alt="Portfólio" />
 </a>
 
 <br /><br />
 
 <!-- ╔══════════════════════════════════════════════════════════════════════╗ -->
-<!-- ║                                ABOUT                                  ║ -->
+<!-- ║                                SOBRE                                  ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
 
-<h2 align="center">Hi, I'm Eduardo</h2>
+<h2 align="center">Olá, eu sou o Eduardo</h2>
 
 <div align="center">
 
@@ -48,7 +48,7 @@
 <tr>
 <td align="justify" valign="middle" width="900">
 
-I've loved technology since I was a kid. My first contact with programming was at **12**, making games — what started as a hobby became a career, and today I feel at home building **mobile apps** and **web systems**. In 2023, I joined **IFRO — Ariquemes/RO Campus** for the IT Technical Program, completed in 2025; that opportunity is what got me started in the field.
+Gosto de tecnologia desde pequeno. Meu primeiro contato com programação foi aos **12 anos**, desenvolvendo jogos — o que começou como hobby virou profissão, e hoje me sinto em casa desenvolvendo **apps mobile** e **sistemas web**. Em 2023, ingressei no **IFRO — Campus Ariquemes/RO**, no Curso Técnico em Informática, concluído em 2025; foi graças a essa oportunidade que comecei a atuar na área.
 
 </td>
 </tr>
@@ -62,7 +62,7 @@ I've loved technology since I was a kid. My first contact with programming was a
 <!-- ║                              TECH STACK                               ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
 
-<h2 align="center">Tech I use every day</h2>
+<h2 align="center">Tecnologias que uso no dia a dia</h2>
 
 <div align="center">
 
@@ -108,7 +108,7 @@ I've loved technology since I was a kid. My first contact with programming was a
   <tr>
     <td valign="middle" width="150" nowrap>
       <img src="https://api.iconify.design/lucide:flask-conical.svg?color=%2360a5fa&width=18" align="center" height="18" alt="" />
-      &nbsp; <b>Quality</b>
+      &nbsp; <b>Qualidade</b>
     </td>
     <td valign="middle" align="left">
       <img src="https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white" alt="Vitest" />
@@ -140,14 +140,14 @@ I've loved technology since I was a kid. My first contact with programming was a
 <!-- ║                              GITHUB STATS                             ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
 
-<h2 align="center">My GitHub activity</h2>
+<h2 align="center">Minha atividade no GitHub</h2>
 
 <br />
 
 <div align="center">
 
-<a href="https://github.com/EduardoSA8006"><img height="155" src="https://raw.githubusercontent.com/EduardoSA8006/EduardoSA8006/output/stats-en.svg" alt="My GitHub stats: total, last-year and private contributions, public commits, public PRs, public issues and public repositories" /></a>&nbsp;<a href="https://github.com/EduardoSA8006"><img height="155" src="https://streak-stats.demolab.com?user=EduardoSA8006&hide_border=true&background=0a1224&stroke=1e3a8a&ring=60A5FA&fire=3B82F6&currStreakLabel=60A5FA&sideLabels=cbd5e1&currStreakNum=ffffff&sideNums=ffffff&dates=64748b" alt="Streak of days with contributions" /></a>
-<a href="https://github.com/EduardoSA8006"><img height="155" src="https://raw.githubusercontent.com/EduardoSA8006/EduardoSA8006/output/languages-en.svg" alt="Most used languages in my repositories, by percentage of code" /></a>
+<a href="https://github.com/EduardoSA8006"><img height="155" src="https://raw.githubusercontent.com/EduardoSA8006/EduardoSA8006/output/stats.svg" alt="Minhas estatísticas no GitHub: contribuições totais, do último ano e privadas, commits públicos, PRs públicos, issues públicas e repositórios públicos" /></a>&nbsp;<a href="https://github.com/EduardoSA8006"><img height="155" src="https://streak-stats.demolab.com?user=EduardoSA8006&hide_border=true&background=0a1224&stroke=1e3a8a&ring=60A5FA&fire=3B82F6&currStreakLabel=60A5FA&sideLabels=cbd5e1&currStreakNum=ffffff&sideNums=ffffff&dates=64748b&locale=pt_BR" alt="Sequência de dias com contribuições" /></a>
+<a href="https://github.com/EduardoSA8006"><img height="155" src="https://raw.githubusercontent.com/EduardoSA8006/EduardoSA8006/output/languages.svg" alt="Linguagens mais usadas nos meus repositórios, por porcentagem de código" /></a>
 
 </div>
 
@@ -157,14 +157,14 @@ I've loved technology since I was a kid. My first contact with programming was a
 <!-- ║                            ACTIVITY GRAPH                             ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
 
-<h2 align="center">Contribution history</h2>
+<h2 align="center">Histórico de contribuições</h2>
 
 <br />
 
 <a href="https://github.com/EduardoSA8006">
   <img
-    src="https://raw.githubusercontent.com/EduardoSA8006/EduardoSA8006/output/activity-en.svg"
-    alt="Chart of my daily contributions over the last year"
+    src="https://raw.githubusercontent.com/EduardoSA8006/EduardoSA8006/output/activity.svg"
+    alt="Gráfico das minhas contribuições diárias no último ano"
     width="100%"
   />
 </a>
@@ -172,10 +172,10 @@ I've loved technology since I was a kid. My first contact with programming was a
 <br /><br /><br />
 
 <!-- ╔══════════════════════════════════════════════════════════════════════╗ -->
-<!-- ║                              TROPHIES                                 ║ -->
+<!-- ║                              TROFÉUS                                  ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
 
-<h2 align="center">Achievements</h2>
+<h2 align="center">Conquistas</h2>
 
 <br />
 
@@ -183,8 +183,8 @@ I've loved technology since I was a kid. My first contact with programming was a
 
 <a href="https://github.com/EduardoSA8006">
   <img
-    src="https://raw.githubusercontent.com/EduardoSA8006/EduardoSA8006/output/conquistas-en.svg"
-    alt="My GitHub achievements: total contributions, longest streak, peak in a day, public PRs, languages used and public repositories, each with its level and progress"
+    src="https://raw.githubusercontent.com/EduardoSA8006/EduardoSA8006/output/conquistas.svg"
+    alt="Minhas conquistas no GitHub: contribuições totais, maior sequência de dias, pico em um dia, PRs públicos, linguagens usadas e repositórios públicos, com nível e progresso de cada uma"
     width="100%"
   />
 </a>
@@ -194,14 +194,14 @@ I've loved technology since I was a kid. My first contact with programming was a
 <br /><br /><br />
 
 <!-- ╔══════════════════════════════════════════════════════════════════════╗ -->
-<!-- ║                          SNAKE — REAL COMMITS                         ║ -->
+<!-- ║                          SNAKE — COMMITS REAIS                        ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
 
-<h2 align="center">Commit snake</h2>
+<h2 align="center">Cobrinha dos commits</h2>
 
 <br />
 
-<sub>Generated from my contribution graph.</sub>
+<sub>Gerada a partir do meu grafo de contribuições.</sub>
 
 <picture>
   <source
@@ -213,7 +213,7 @@ I've loved technology since I was a kid. My first contact with programming was a
     srcset="https://raw.githubusercontent.com/EduardoSA8006/EduardoSA8006/output/snake.svg"
   />
   <img
-    alt="snake eating my commits"
+    alt="snake comendo meus commits"
     src="https://raw.githubusercontent.com/EduardoSA8006/EduardoSA8006/output/snake.svg"
     width="100%"
   />
@@ -222,10 +222,10 @@ I've loved technology since I was a kid. My first contact with programming was a
 <br /><br /><br />
 
 <!-- ╔══════════════════════════════════════════════════════════════════════╗ -->
-<!-- ║                              CONTACT / CTA                            ║ -->
+<!-- ║                              CONTATO / CTA                            ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
 
-<h2 align="center">Let's talk</h2>
+<h2 align="center">Vamos conversar</h2>
 
 <br />
 
@@ -256,9 +256,9 @@ I've loved technology since I was a kid. My first contact with programming was a
 </td>
 <td align="center" width="180">
 <a href="https://eduardoalves.online/">
-  <img src="https://api.iconify.design/lucide:globe.svg?color=%2360a5fa&width=40" width="40" alt="portfolio" /><br/>
-  <sub><b>Portfolio</b></sub><br/>
-  <sub>see my projects</sub>
+  <img src="https://api.iconify.design/lucide:globe.svg?color=%2360a5fa&width=40" width="40" alt="portfólio" /><br/>
+  <sub><b>Portfólio</b></sub><br/>
+  <sub>conheça meus projetos</sub>
 </a>
 </td>
 </tr>
@@ -269,7 +269,7 @@ I've loved technology since I was a kid. My first contact with programming was a
 <br />
 
 <sub>
-  Want to know more about me and my work? <a href="https://eduardoalves.online/">Check out my portfolio</a>.
+  Quer saber mais sobre mim e meu trabalho? <a href="https://eduardoalves.online/">Conheça meu portfólio</a>.
 </sub>
 
 </div>
@@ -281,18 +281,18 @@ I've loved technology since I was a kid. My first contact with programming was a
 <!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
 
 <div align="center">
-<img src="https://komarev.com/ghpvc/?username=EduardoSA8006&label=profile%20views&color=2563eb&style=flat-square" alt="profile views" />
+<img src="https://komarev.com/ghpvc/?username=EduardoSA8006&label=visitantes%20do%20perfil&color=2563eb&style=flat-square" alt="profile views" />
 <img src="https://img.shields.io/github/followers/EduardoSA8006?label=followers&style=flat-square&color=1e3a8a&labelColor=0a1a3a" alt="followers" />
-<img src="https://img.shields.io/badge/Ariquemes%2C-RO%20%E2%80%A2%20Brazil-3b82f6?style=flat-square&logo=googlemaps&logoColor=white" alt="location" />
-<img src="https://img.shields.io/badge/status-open%20to%20conversations-22c55e?style=flat-square" alt="status: open to conversations" />
+<img src="https://img.shields.io/badge/Ariquemes-RO%20%E2%80%A2%20Brasil-3b82f6?style=flat-square&logo=googlemaps&logoColor=white" alt="location" />
+<img src="https://img.shields.io/badge/status-aberto%20a%20conversas-22c55e?style=flat-square" alt="status: aberto a conversas" />
 
 <br />
 <br />
 
 <img
-  src="https://raw.githubusercontent.com/EduardoSA8006/EduardoSA8006/main/assets/footer-en.svg"
+  src="https://raw.githubusercontent.com/EduardoSA8006/EduardoSA8006/main/assets/footer.svg"
   width="100%"
-  alt="Code that stands the test of time. — Eduardo Alves"
+  alt="Código que sobrevive ao tempo. — Eduardo Alves"
 />
 
 </div>
