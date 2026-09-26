@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="990" height="260" viewBox="0 0 990 260" fill="none" role="img" aria-label="Conquistas: Contribuições totais 3.011 (nível 4/5), Maior sequência de dias 16 (nível 1/4), Pico em um dia 116 (nível 3/4), PRs públicos 50 (nível 2/4), Linguagens usadas 24 (nível 4/4), Repositórios públicos 15 (nível 2/4)">
+  <title>Conquistas: Contribuições totais 3.011 (nível 4/5), Maior sequência de dias 16 (nível 1/4), Pico em um dia 116 (nível 3/4), PRs públicos 50 (nível 2/4), Linguagens usadas 24 (nível 4/4), Repositórios públicos 15 (nível 2/4)</title>
+  <style>
+    text { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; }
+    .title { font-size: 18px; font-weight: 600; fill: #60A5FA; }
+    .muted { fill: #64748b; }
+    .name { font-size: 14px; fill: #cbd5e1; }
+    .level { font-size: 12px; font-weight: 600; fill: #cbd5e1; }
+    .value { font-size: 22px; font-weight: 700; fill: #ffffff; }
+    .unit { font-size: 13px; font-weight: 400; fill: #64748b; }
+    .track { fill: #1e3a8a; fill-opacity: 0.45; }
+    .caption { font-size: 12px; }
+    .icon { fill: none; stroke-width: 1.4; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+  <rect width="990" height="260" rx="4.5" fill="#0a1224"/>
+  <text x="25" y="38" class="title" style="font-size: 20px">Conquistas</text>
+  <circle cx="47" cy="94" r="20" fill="#60a5fa" fill-opacity="0.16" stroke="#60a5fa" stroke-width="1.5"/>
+  <g transform="translate(38 85) scale(1.125)" class="icon" stroke="#60a5fa"><path d="M1.5 8.5h3l2-5 3 9 2-4h3"/></g>
+  <text x="83" y="76" class="name">Contribuições totais</text>
+  <rect x="255" y="61" width="70" height="20" rx="10" fill="#60a5fa" fill-opacity="0.28"/>
+  <text x="290" y="75.5" class="level" text-anchor="middle">Nível 4/5</text>
+  <text x="83" y="105" class="value">3.011</text>
+  <rect class="track" x="83" y="120" width="242" height="6" rx="3"/>
+  <rect class="progress" x="83" y="120" width="49.5" height="6" rx="3" fill="#60a5fa"/>
+  <text x="83" y="143" class="caption muted">próximo nível: 5.000</text>
+  <circle cx="367" cy="94" r="20" fill="#1d4ed8" fill-opacity="0.16" stroke="#1d4ed8" stroke-width="1.5"/>
+  <g transform="translate(358 85) scale(1.125)" class="icon" stroke="#1d4ed8"><path d="M8 1.5c.4 2.3 4.5 3.9 4.5 8a4.5 4.5 0 0 1-9 0c0-1.9.9-3.3 2-4.1.1 1.3.7 2.3 1.7 2.6C6.9 6 7.1 3.8 8 1.5z"/></g>
+  <text x="403" y="76" class="name">Maior sequência de dias</text>
+  <rect x="575" y="61" width="70" height="20" rx="10" fill="#1d4ed8" fill-opacity="0.28"/>
+  <text x="610" y="75.5" class="level" text-anchor="middle">Nível 1/4</text>
+  <text x="403" y="105" class="value">16<tspan class="unit" dx="6">dias</tspan></text>
+  <rect class="track" x="403" y="120" width="242" height="6" rx="3"/>
+  <rect class="progress" x="403" y="120" width="94.7" height="6" rx="3" fill="#1d4ed8"/>
+  <text x="403" y="143" class="caption muted">próximo nível: 30 dias</text>
+  <circle cx="687" cy="94" r="20" fill="#60a5fa" fill-opacity="0.16" stroke="#60a5fa" stroke-width="1.5"/>
+  <g transform="translate(678 85) scale(1.125)" class="icon" stroke="#60a5fa"><path d="M9.2 1.5 3 9.2h4.6l-.8 5.3L13 6.8H8.4z"/></g>
+  <text x="723" y="76" class="name">Pico em um dia</text>
+  <rect x="895" y="61" width="70" height="20" rx="10" fill="#60a5fa" fill-opacity="0.28"/>
+  <text x="930" y="75.5" class="level" text-anchor="middle">Nível 3/4</text>
+  <text x="723" y="105" class="value">116</text>
+  <rect class="track" x="723" y="120" width="242" height="6" rx="3"/>
+  <rect class="progress" x="723" y="120" width="38.7" height="6" rx="3" fill="#60a5fa"/>
+  <text x="723" y="143" class="caption muted">próximo nível: 200</text>
+  <circle cx="47" cy="194" r="20" fill="#3b82f6" fill-opacity="0.16" stroke="#3b82f6" stroke-width="1.5"/>
+  <g transform="translate(38 185) scale(1.125)" class="icon" stroke="#3b82f6"><circle cx="4" cy="3.5" r="1.8"/><circle cx="4" cy="12.5" r="1.8"/><circle cx="12" cy="12.5" r="1.8"/><path d="M4 5.3v5.4M12 10.7V6.5a2 2 0 0 0-2-2H7.5M9 3l-1.5 1.5L9 6"/></g>
+  <text x="83" y="176" class="name">PRs públicos</text>
+  <rect x="255" y="161" width="70" height="20" rx="10" fill="#3b82f6" fill-opacity="0.28"/>
+  <text x="290" y="175.5" class="level" text-anchor="middle">Nível 2/4</text>
+  <text x="83" y="205" class="value">50</text>
+  <rect class="track" x="83" y="220" width="242" height="6" rx="3"/>
+  <rect class="progress" x="83" y="220" width="0" height="6" rx="3" fill="#3b82f6"/>
+  <text x="83" y="243" class="caption muted">próximo nível: 100</text>
+  <circle cx="367" cy="194" r="20" fill="#93c5fd" fill-opacity="0.16" stroke="#93c5fd" stroke-width="1.5"/>
+  <g transform="translate(358 185) scale(1.125)" class="icon" stroke="#93c5fd"><path d="M5 4.5 1.5 8 5 11.5M11 4.5 14.5 8 11 11.5M9.2 2.5l-2.4 11"/></g>
+  <text x="403" y="176" class="name">Linguagens usadas</text>
+  <rect x="575" y="161" width="70" height="20" rx="10" fill="#93c5fd" fill-opacity="0.28"/>
+  <text x="610" y="175.5" class="level" text-anchor="middle">Nível 4/4</text>
+  <text x="403" y="205" class="value">24</text>
+  <rect class="track" x="403" y="220" width="242" height="6" rx="3"/>
+  <rect class="progress" x="403" y="220" width="242" height="6" rx="3" fill="#93c5fd"/>
+  <text x="403" y="243" class="caption" fill="#93c5fd">nível máximo</text>
+  <circle cx="687" cy="194" r="20" fill="#3b82f6" fill-opacity="0.16" stroke="#3b82f6" stroke-width="1.5"/>
+  <g transform="translate(678 185) scale(1.125)" class="icon" stroke="#3b82f6"><path d="M3 13V2.8A1.3 1.3 0 0 1 4.3 1.5H13v10H4.3A1.3 1.3 0 0 0 3 12.8a1.3 1.3 0 0 0 1.3 1.2H13"/></g>
+  <text x="723" y="176" class="name">Repositórios públicos</text>
+  <rect x="895" y="161" width="70" height="20" rx="10" fill="#3b82f6" fill-opacity="0.28"/>
+  <text x="930" y="175.5" class="level" text-anchor="middle">Nível 2/4</text>
+  <text x="723" y="205" class="value">15</text>
+  <rect class="track" x="723" y="220" width="242" height="6" rx="3"/>
+  <rect class="progress" x="723" y="220" width="80.7" height="6" rx="3" fill="#3b82f6"/>
+  <text x="723" y="243" class="caption muted">próximo nível: 25</text>
+</svg>
