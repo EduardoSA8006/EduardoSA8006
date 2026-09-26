@@ -1,0 +1,13 @@
+{
+  "name": "profile-stats",
+  "private": true,
+  "description": "Gera os SVGs de estatísticas do perfil (stats, activity, languages) a partir da API do GitHub.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node main.js",
+    "test": "node --test \"test/*.test.js\""
+  }
+}

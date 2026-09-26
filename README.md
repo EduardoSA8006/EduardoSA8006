@@ -144,8 +144,8 @@ Sempre gostei de tecnologia desde pequeno. Meu primeiro contato com programaçã
 
 <div align="center">
 
-<a href="https://github.com/EduardoSA8006"><img height="155" src="https://github-readme-stats-anuraghazra1.vercel.app/api?username=EduardoSA8006&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&title_color=60A5FA&icon_color=3B82F6&text_color=cbd5e1&bg_color=0a1224" alt="github stats" /></a>&nbsp;<a href="https://github.com/EduardoSA8006"><img height="155" src="https://streak-stats.demolab.com?user=EduardoSA8006&hide_border=true&background=0a1224&stroke=1e3a8a&ring=60A5FA&fire=3B82F6&currStreakLabel=60A5FA&sideLabels=cbd5e1&currStreakNum=ffffff&sideNums=ffffff&dates=64748b" alt="streak" /></a>
-<a href="https://github.com/EduardoSA8006"><img height="155" src="https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs/?username=EduardoSA8006&layout=compact&hide_border=true&langs_count=10&title_color=60A5FA&text_color=cbd5e1&bg_color=0a1224" alt="top languages" /></a>
+<a href="https://github.com/EduardoSA8006"><img height="155" src="https://raw.githubusercontent.com/EduardoSA8006/EduardoSA8006/output/stats.svg" alt="Minhas estatísticas no GitHub: contribuições totais, do último ano e privadas, commits públicos, PRs públicos, issues públicas e repositórios públicos" /></a>&nbsp;<a href="https://github.com/EduardoSA8006"><img height="155" src="https://streak-stats.demolab.com?user=EduardoSA8006&hide_border=true&background=0a1224&stroke=1e3a8a&ring=60A5FA&fire=3B82F6&currStreakLabel=60A5FA&sideLabels=cbd5e1&currStreakNum=ffffff&sideNums=ffffff&dates=64748b" alt="Sequência de dias com contribuições" /></a>
+<a href="https://github.com/EduardoSA8006"><img height="155" src="https://raw.githubusercontent.com/EduardoSA8006/EduardoSA8006/output/languages.svg" alt="Linguagens mais usadas nos meus repositórios, por porcentagem de código" /></a>
 
 </div>
 
@@ -161,8 +161,8 @@ Sempre gostei de tecnologia desde pequeno. Meu primeiro contato com programaçã
 
 <a href="https://github.com/EduardoSA8006">
   <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=EduardoSA8006&theme=react-dark&bg_color=0a1224&color=60a5fa&line=3b82f6&point=ffffff&area=true&area_color=1e3a8a&hide_border=true&custom_title=Commits%20%C2%B7%20%C3%9Altimo%20ano"
-    alt="activity graph"
+    src="https://raw.githubusercontent.com/EduardoSA8006/EduardoSA8006/output/activity.svg"
+    alt="Gráfico das minhas contribuições diárias no último ano"
     width="100%"
   />
 </a>
