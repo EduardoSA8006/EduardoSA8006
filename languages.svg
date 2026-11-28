@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" fill="none" role="img" aria-label="Linguagens mais usadas: Python 35,2%, Dart 28,7%, Luau 10,0%, TypeScript 9,0%, C++ 8,5%, C 4,1%, JavaScript 1,4%, CMake 0,9%, Shell 0,8%, Outras 1,4%">
+  <title>Linguagens mais usadas: Python 35,2%, Dart 28,7%, Luau 10,0%, TypeScript 9,0%, C++ 8,5%, C 4,1%, JavaScript 1,4%, CMake 0,9%, Shell 0,8%, Outras 1,4%</title>
+  <style>
+    text { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; }
+    .title { font-size: 18px; font-weight: 600; fill: #60A5FA; }
+    .muted { fill: #64748b; }
+    .lang { font-size: 13px; fill: #cbd5e1; }
+    .pct { fill: #64748b; }
+    .empty { font-size: 13px; }
+  </style>
+  <rect width="495" height="195" rx="4.5" fill="#0a1224"/>
+  <defs>
+    <clipPath id="bar"><rect x="25" y="52" width="445" height="10" rx="5"/></clipPath>
+  </defs>
+  <text x="25" y="35" class="title">Linguagens mais usadas</text>
+  <g clip-path="url(#bar)">
+    <rect class="segment" x="25" y="52" width="157.2" height="10" fill="#3572A5"/>
+    <rect class="segment" x="181.7" y="52" width="128.1" height="10" fill="#00B4AB"/>
+    <rect class="segment" x="309.3" y="52" width="45.1" height="10" fill="#00A2FF"/>
+    <rect class="segment" x="353.8" y="52" width="40.6" height="10" fill="#3178c6"/>
+    <rect class="segment" x="394" y="52" width="38.5" height="10" fill="#f34b7d"/>
+    <rect class="segment" x="431.9" y="52" width="18.6" height="10" fill="#555555"/>
+    <rect class="segment" x="450" y="52" width="6.5" height="10" fill="#f1e05a"/>
+    <rect class="segment" x="456.1" y="52" width="4.7" height="10" fill="#DA3434"/>
+    <rect class="segment" x="460.3" y="52" width="4" height="10" fill="#89e051"/>
+    <rect class="segment" x="463.7" y="52" width="6.8" height="10" fill="#64748b"/>
+  </g>
+  <circle cx="30" cy="87.5" r="5" fill="#3572A5"/>
+  <text x="42" y="92" class="lang">Python <tspan class="pct">35,2%</tspan></text>
+  <circle cx="30" cy="108.5" r="5" fill="#00B4AB"/>
+  <text x="42" y="113" class="lang">Dart <tspan class="pct">28,7%</tspan></text>
+  <circle cx="30" cy="129.5" r="5" fill="#00A2FF"/>
+  <text x="42" y="134" class="lang">Luau <tspan class="pct">10,0%</tspan></text>
+  <circle cx="30" cy="150.5" r="5" fill="#3178c6"/>
+  <text x="42" y="155" class="lang">TypeScript <tspan class="pct">9,0%</tspan></text>
+  <circle cx="30" cy="171.5" r="5" fill="#f34b7d"/>
+  <text x="42" y="176" class="lang">C++ <tspan class="pct">8,5%</tspan></text>
+  <circle cx="265" cy="87.5" r="5" fill="#555555"/>
+  <text x="277" y="92" class="lang">C <tspan class="pct">4,1%</tspan></text>
+  <circle cx="265" cy="108.5" r="5" fill="#f1e05a"/>
+  <text x="277" y="113" class="lang">JavaScript <tspan class="pct">1,4%</tspan></text>
+  <circle cx="265" cy="129.5" r="5" fill="#DA3434"/>
+  <text x="277" y="134" class="lang">CMake <tspan class="pct">0,9%</tspan></text>
+  <circle cx="265" cy="150.5" r="5" fill="#89e051"/>
+  <text x="277" y="155" class="lang">Shell <tspan class="pct">0,8%</tspan></text>
+  <circle cx="265" cy="171.5" r="5" fill="#64748b"/>
+  <text x="277" y="176" class="lang">Outras <tspan class="pct">1,4%</tspan></text>
+</svg>
